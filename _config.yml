@@ -1,0 +1,29 @@
+# _config.yml
+
+title: "My Portfolio Site"
+description: "A sample from my portfolio hosted on GitHub Pages"
+author: "Daniel Gorelkin"
+
+# Theme
+theme: jekyll-theme-minimal
+
+# URL settings
+url: "https://Dgoralkin.github.io"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# enable future-dated posts
+future: true
+
+# Exclude files/folders from the site build
+exclude:
+  # - README.md
+
+# Social links (optional)
+social_links:
+  github: Dgoralkin
+  linkedin: Daniel Gorelkin
