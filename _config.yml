@@ -5,7 +5,7 @@ description: "A sample from my portfolio hosted on GitHub Pages"
 author: "Daniel Gorelkin"
 
 # Theme
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 
 # URL settings
 url: "https://Dgoralkin.github.io"
@@ -23,7 +23,7 @@ future: true
 exclude:
   # - README.md
 
-# Social links (optional)
+# Social links
 social_links:
   github: Dgoralkin
   linkedin: Daniel Gorelkin
