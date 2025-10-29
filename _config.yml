@@ -5,7 +5,11 @@ description: "A sample from my portfolio hosted on GitHub Pages"
 author: "Daniel Gorelkin"
 
 # Theme
-theme: jekyll-theme-cayman
+theme: jekyll-theme-modernist
+#jekyll-theme-cayman, jekyll-theme-minimal
+#jekyll-theme-midnight, jekyll-theme-modernist
+#jekyll-theme-primer, jekyll-theme-slate
+#jekyll-theme-tactile, jekyll-theme-time-machine
 
 # URL settings
 url: "https://Dgoralkin.github.io"
