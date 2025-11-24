@@ -152,7 +152,7 @@ It highlights how I apply computer science principles and techniques to solve re
     <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Code_Review_Demo.gif?raw=true" width="200">
 </a>
 
-- **Watch my code review on YouTube: ** [Travlr - Code Review](https://www.youtube.com/watch?v=a1f7fYMmwT0)
+- **Watch my code review on YouTube** -> [Travlr - Code Review](https://www.youtube.com/watch?v=a1f7fYMmwT0)
 - Feel free to watch the code review.
 
 ---
