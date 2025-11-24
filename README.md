@@ -14,7 +14,7 @@ I also learned to think beyond the lines of code I wrote and consider the other 
 
 Throughout the enhancements, I will demonstrate my ability to develop functional code by applying modern software design principles, such as object-oriented programming, and following best practices. I will also demonstrate my skills in designing and testing computing solutions using algorithms while outlining trade-offs in my design decisions. Similarly, I will demonstrate a security-focused mindset that minimizes threats, identifies and mitigates design flaws, and ensures the privacy and safety of data.  
 
-To achieve these goals, I will use proven and innovative computing tools and techniques to meet industry standards and adapt to audience and context.  
+To achieve these goals, I will use proven and innovative computing tools and techniques to meet industry standards and adapt to the audience and context.  
 
 These skills will help me succeed as a full-stack developer—working individually or collaboratively in teams focused on quality, functionality, and security. My ability to design functional front-ends, manage structured back-end databases, and integrate them effectively will be an asset across industries such as banking, healthcare, and entertainment.  
 
@@ -138,7 +138,7 @@ It highlights how I apply computer science principles and techniques to solve re
 ### **Professional Self-Assessment Focus**
 - Reflecting on growth in technical and professional skills  
 - Integrating academic learning into real-world practice  
-- Demonstrating readiness for professional roles in co
+- Demonstrating readiness for professional roles and employment readability
 
 ---
 
