@@ -67,8 +67,8 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 - Applying secure, scalable, and modern design practices  
 
 #### Aligned Course Outcomes:
-- Apply innovative tools and techniques to deliver value and meet industry goals.  
-- Develop a security mindset to identify vulnerabilities and protect user data.  
+- **Outcome 2:** Apply innovative tools and techniques to deliver value and meet industry goals.  
+- **Outcome 5:** Develop a security mindset to identify vulnerabilities and protect user data.  
 
 ---
 
