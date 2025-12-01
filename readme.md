@@ -8,9 +8,9 @@
 3. [Project Deployment](#project-deployment)
 4. [Code Review](#code-review) 
 5. [Enhancement Plan](#enhancement-plan)
-    a. [Category 1: Software Engineering and Design](#category-one)
-    b. [Category 2: Algorithms and Data Structures](#category-two)
-    c. [Category 3: Databases](#category-three)
+    1. [Category 1: Software Engineering and Design](#category-one)
+    2. [Category 2: Algorithms and Data Structures](#category-two)
+    3. [Category 3: Databases](#category-three)
 
 ---
 
