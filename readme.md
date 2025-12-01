@@ -49,8 +49,8 @@ To demonstrate my skills, I chose to enhance the "Travlr" full-stack app develop
 
 ## III. Enhanced project Deployment on Rended
 
-<a href="https://travlr-dg.onrender.com/">
-    <img src="https://youtu.be/JePZvT62_P8" width="400">
+<a href="https://youtu.be/JePZvT62_P8">
+    <img src="https://img.youtube.com/vi/JePZvT62_P8/maxresdefault.jpg" width="400">
 </a>
 
 - **Hosted live on:** [https://travlr-dg.onrender.com/](https://travlr-dg.onrender.com/)
