@@ -4,6 +4,9 @@
 
 ---
 
+<div style="background:#f3f3f3;padding:10px;border-radius:6px;">
+    <b>I. Self-Introduction</b>
+</div>
 ## I. Self-Introduction  
 
 After completing three and a half years in the Computer Science program, focusing on data and software engineering, I have been exposed to various programming languages, architectures, designs, and execution environments, and have developed a strong mindset for solving complex problems and meeting deadlines.  
