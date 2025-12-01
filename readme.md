@@ -13,30 +13,23 @@
 
 ## I. Self-Introduction  
 
-After completing three and a half years in the Computer Science program, focusing on data and software engineering, I have been exposed to various programming languages, architectures, designs, and execution environments, and have developed a strong mindset for solving complex problems and meeting deadlines.  
-
+After completing three and a half years in the Computer Science program, focusing on data and software engineering, I have been exposed to various programming languages, architectures, designs, and execution environments, and have developed a strong mindset for solving complex problems and meeting deadlines.
 While in the program, I learned at night and worked full-time as a service manager while being a father to three wonderful kids. But most importantly, I learned to think outside the box and always consider the interaction between the user and the software—such as the user's safety and security, functionality, and design—and how easy and intuitive it will be for users to operate the software.  
 
-Additionally, I learned to think beyond the code I wrote and to consider the other developers who will maintain it, following best practices and crediting others' work. Ultimately, I learned that everything is possible and the sky is the limit. If there is something I can't solve today, it doesn't mean it's not solvable—it means I need to learn and develop new skills to tackle the problem and solve it.
-
+Additionally, I learned to think beyond the code I wrote and to consider the other developers who will maintain it, following best practices and crediting others' work. Ultimately, I learned that everything is possible and the sky is the limit. If there is something I can't solve today, it doesn't mean it's not solvable—it means I need to learn and develop new skills to solve the problem.
 Throughout the enhancements, I will demonstrate my ability to develop functional code by applying modern software design principles, such as object-oriented programming, and following best practices. I will also demonstrate my skills in designing and testing computing solutions using algorithms while outlining trade-offs in my design decisions. Similarly, I will demonstrate a security-focused mindset that minimizes threats, identifies and mitigates design flaws, and ensures the privacy and safety of data.  
 
 To achieve these goals, I will use proven and innovative computing tools and techniques to meet industry standards and adapt to the audience and context.  
-
 These skills will help me succeed as a full-stack developer—working individually or collaboratively, with a focus on quality, functionality, and security. My ability to design functional front-end interfaces, manage structured back-end databases, and integrate them effectively will be an asset across industries such as banking, healthcare, entertainment, and more.  
-
 While this is only a cornerstone in my journey to become an expert AI developer, developing full-stack skills and expanding my knowledge into advanced design and implementation are essential first steps. I am looking forward to entering the computer science workplace and mastering my skills by applying everything I have learned on my journey while keeping my mind open to learning from the best in the field.
 
 With this in mind,  what started as a professional hobby project soon became the next thing I wanted to do in life. Looking forward, I have already started planning my path towards the Master's degree, focusing on ML and deep learning.
-
 But for now, completing my coursework throughout the program taught me to plan my work by choosing the right development strategy for the task, whether it be a Waterfall, Agile model, or DevOps, reading and creating diagrams, or simply communicating my work to stakeholders or an expert audience.
-
 For example, I had the chance to play the role of the Scrum master and the project manager in one course, and a tester and developer in the other. Similarly, I had the chance to create detailed design diagrams for my colleagues to develop and execute a development based on the given diagrams and requirements. All that while collaborating with my team and keeping best practices in mind.
 
 Eventually, the program did not teach me to "just write code," but to think like a state-of-the-art software developer who sees the big picture, from collecting user stories to clean deployment, project summary, and assessment. I had the chance to practise multiple programming languages such as Python, C++, Java, JavaScript, including running queries and building relational and non-relational databases as MySQL and MongoDB, I had the chance to practise as a data analyst while scraping and cleaning code using the R language, while communicating the findings and providing visualized recommendation plans using Power BI, Tableu, or Knime. As well as working with RESTful APIs and developing software for Android mobile devices. Ultimately, I had the chance to build several full-stack applications using Maven, Node and Python libraries. In addition, I practised in developing an AI agent and studied the technology behind ML and DL, as well as modelled and executed a picture-based scenario into a computerized 3D navigation environment.
 
 The end result? Combining my freshly acquired skills with my previous knowledge and 14 years of experience as a self-employed and founder of a small-sized company, I feel comfortable holding both sides of the sword and being a solo software developer, as well as a meaningful team leader that drives his team to success by acting as a role model!
-
 To demonstrate my skills, I chose to enhance the "Travlr" full-stack app developed from my CS-465 coursework by demonstrating mastery in Software design and engineering, Algorithms and data structures, and databases.
 
 ### To do so, I will:
