@@ -142,7 +142,7 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 
 | Old Design | Enhanced Responsive Design | Mobile Design |
 |------------|---------------------------|---------------|
-| ![Old Design](https://snhu-my.sharepoint.com/:i:/r/personal/daniel_gorelkin_snhu_edu/Documents/Media/Old%20design.png?csf=1&web=1&e=zLctir) | ![Enhanced Design](https://snhu-my.sharepoint.com/:i:/r/personal/daniel_gorelkin_snhu_edu/Documents/Media/New%20design.png?csf=1&web=1&e=hcZp4y) | ![Mobile Design](https://snhu-my.sharepoint.com/:i:/r/personal/daniel_gorelkin_snhu_edu/Documents/Media/Mobile%20design.png?csf=1&web=1&e=FSoNwh) |
+| ![Old Design](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Old%20design.png) | ![Enhanced Design](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/New%20design.png) | ![Mobile Design](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Mobile%20design.png) |
 
 ---
 
