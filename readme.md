@@ -125,11 +125,16 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 - **Outcome 1:** Employ strategies for building collaborative environments that enable diverse audiences.
 
 #### **Narratives:**
+<details>
+<summary><strong>Read More</strong></summary>
+
 - Building this project half a year ago was my first experience working with JavaScript and RESTful API. Although I already have some experience with databases running on a local machine, it seemed to me so outdated to build a modern software upon “old” technology, hence moving to the cloud and benefiting from scaling, security, and the added value of data analysis that could be done in the cloud was a cornerstone in choosing that artifact.
 - While enhancing the original project and taking the lead over the development, I practiced and improved my skills in JavaScript, delved deeper into working with CSS, HTML, and Handlebars, implemented a modern and remote database from scratch, and created separate user roles to improve security, collaboration, and functionality.
 - Beyond the technical aspect, I also implemented best practices in coding by making the code more readable, modular and maintainable by splitting it into separate code files, re-organizing the files for easier navigation and improved logic
 - Accomplishing the above allowed me to demonstrate an ability to use well-founded and innovative techniques, skills, and tools to implement computer solutions that deliver value and achieve industry-specific goals, and to employ a collaborative environment to address diverse audiences and support decision-making in the field of computer science.
 - The enhancement process itself, once again, reminded me of the value of creating and following a well-written development plan, adhering to a dedicated timeline, and splitting complex work into smaller development blocks that will work in harmony to form the complete picture. With that said, the work on this project allowed me to expand my skills by learning another programming language, improving my UX/UI development skills, and using and implementing modern technologies, such as MongoDB Atlas for data storage and Postman for testing my code's functionality. 
+
+</details>
 
 #### Project Design Comparison
 
