@@ -122,13 +122,8 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 
 #### Aligned Course Outcomes:
 
-<div style="background:#7afaf1;padding:10px;border-radius:6px;">
-    <b>Outcome 4:</b> Apply innovative tools, techniques, and skills to deliver value and meet industry goals.
-</div>
-
-<div style="background:#7afaf1;padding:10px;border-radius:6px;">
-    <b>Outcome 1:</b> Employ strategies for building collaborative environments that enable diverse audiences.
-</div>
+- **Outcome 4:** Apply innovative tools, techniques, and skills to deliver value and meet industry goals.  
+- **Outcome 1:** Employ strategies for building collaborative environments that enable diverse audiences.
 
 #### **Narratives:**
 
