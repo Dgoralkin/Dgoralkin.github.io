@@ -3,11 +3,11 @@
 **CS-499 Computer Science Capstone – Dec 01, 2025**
 
 ## Table of Contents
-1. [Self-Introduction](#1️⃣-self-introduction)
-2. [ePortfolio Setup](#2️⃣.-ePortfolio-Setup)
-3. [Project Deployment](#3️⃣.-Project-Deployment)
-4. [Code Review](#4️⃣.-Code-Review)
-5. [Enhancement Plan](#5️⃣.-Enhancement-Plan)
+1. [Self-Introduction](#self-introduction)
+2. [ePortfolio Setup](#eportfolio-setup)
+3. [Project Deployment](#project-deployment)
+4. [Code Review](#code-review)
+5. [Enhancement Plan](#enhancement-plan)
 
 ---
 
@@ -42,12 +42,14 @@ To demonstrate my skills, I chose to enhance the "Travlr" full-stack app develop
 
 ---
 
+<a id="eportfolio-setup"></a>
 ## 2️⃣. ePortfolio Setup  
 
 - **Hosted on:** [https://dgoralkin.github.io/](https://dgoralkin.github.io/)
 
 ---
 
+<a id="project-deployment"></a>
 ## 3️⃣. Project Deployment
 <a href="https://travlr-dg.onrender.com/">
     <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Travlr_Demo.gif?raw=true" width="500">
@@ -79,6 +81,7 @@ It highlights how I apply computer science principles and techniques to solve re
 
 ---
 
+<a id="code-review"></a>
 ## 4️⃣. Code Review
 
 ---
@@ -94,6 +97,7 @@ It highlights how I apply computer science principles and techniques to solve re
 
 ---
 
+<a id="enhancement-plan"></a>
 ## 5️⃣. Enhancement Plan  
 
 ---
