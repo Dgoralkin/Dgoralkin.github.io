@@ -34,10 +34,10 @@ To demonstrate my skills, I chose to enhance the "Travlr" full-stack app develop
 
 ### To do so, I will:
 - [x] **1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making.**
-- [x] **2. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.**
-- [x] **3. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**
-- [x] **4. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.**
-- [x] **5. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.**
+- [x] **2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts**
+- [x] **3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices**
+- [x] **4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals**
+- [x] **5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources**
 
 ---
 
@@ -127,8 +127,8 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 - Applying secure, scalable, and modern design practices  
 
 #### Aligned Course Outcomes:
-- **Outcome 3:** Apply innovative tools and techniques to deliver value and meet industry goals.  
-- **Outcome 4:** Employ strategies for building collaborative environments that enable diverse audiences.
+- **Outcome 4:** Apply innovative tools, techniques, and skills to deliver value and meet industry goals.  
+- **Outcome 1:** Employ strategies for building collaborative environments that enable diverse audiences.
 
 #### **Narratives:**
 - Building this project half a year ago was my first experience working with JavaScript and RESTful API. Although I already have some experience with databases running on a local machine, it seemed to me so outdated to build a modern software upon “old” technology, hence moving to the cloud and benefiting from scaling, security, and the added value of data analysis that could be done in the cloud was a cornerstone in choosing that artifact.
@@ -165,8 +165,8 @@ The goal is to transform the website into an **intelligent platform** using algo
 - Communicating technical results clearly to end users  
 
 #### Aligned Course Outcomes:
-- **Outcome 3:** Design and evaluate computing solutions using algorithmic principles.  
-- **Outcome 4:** Use innovative tools and techniques to deliver professional, industry-level functionality.  
+- **Outcome 3:** Design and evaluate computing solutions using algorithmic principles while managing the trade-offs involved in design choices.  
+- **Outcome 5:** Develop a security mindset that anticipates adversarial exploits and mitigates design flaws to ensure privacy and enhanced security.  
 
 #### **Narratives:**
 - I have selected algorithms and event listeners that will be responsible for updating the elements via dedicated and modular JavaScript code sections, making the app dynamic and vibrant.
@@ -208,6 +208,6 @@ This enhancement focuses on migrating the database to a **cloud platform** such 
 - Enabling secure, collaborative workflows  
 
 #### Aligned Course Outcomes:
-- **Outcome 1:** Build collaborative environments for diverse audiences to support decision-making.  
-- **Outcome 3:** Use innovative computing tools to create value and achieve industry goals.  
+- **Outcome 2:** Build collaborative environments for diverse audiences to support decision-making.  
+- **Outcome 5:** Use innovative computing tools to create value and achieve industry goals.  
 
