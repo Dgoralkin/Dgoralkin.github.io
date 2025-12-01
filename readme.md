@@ -91,7 +91,7 @@ It highlights how I apply computer science principles and techniques to solve re
 ### **Self-Assessment Code Review**
 
 <a href="https://www.youtube.com/watch?v=a1f7fYMmwT0">
-    <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Code_Review_Demo.gif?raw=true" width="200">
+    <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Code_Review_Demo.gif?raw=true" width="400">
 </a>
 
 - **Watch my code review on YouTube** [Travlr Code Review](https://www.youtube.com/watch?v=a1f7fYMmwT0)
@@ -208,6 +208,17 @@ This enhancement focuses on migrating the database to a **cloud platform** such 
 - Enabling secure, collaborative workflows  
 
 #### Aligned Course Outcomes:
-- **Outcome 2:** Build collaborative environments for diverse audiences to support decision-making.  
-- **Outcome 5:** Use innovative computing tools to create value and achieve industry goals.  
+- **Outcome 4:** Apply innovative tools, techniques, and skills to deliver value and meet industry goals. 
+- **Outcome 5:** Develop a security mindset that anticipates adversarial exploits and mitigates design flaws to ensure privacy and enhanced security. 
 
+#### **Narratives:**
+- I have selected algorithms and event listeners that will be responsible for updating the elements via dedicated and modular JavaScript code sections, making the app dynamic and vibrant.
+
+#### The MongoDB Atlas Cloud Database Optimization
+![MongoDB Atlas](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Atlas%20DB.png)
+
+#### Securing Endpoints
+![MongoDB Atlas](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Atlas%20DB.png)
+
+#### Authentication and Authorization
+![MongoDB Atlas](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Atlas%20DB.png)
