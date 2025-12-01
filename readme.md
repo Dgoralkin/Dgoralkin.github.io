@@ -52,7 +52,7 @@ To demonstrate my skills, I chose to enhance the "Travlr" full-stack app develop
     <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Travlr_Demo.gif?raw=true" width="500">
 </a>
 
-- **Hosted live on:** [https://travlr-dg.onrender.com/](https://travlr-dg.onrender.com/)
+- **🌍✈️ Travlr Demo Video is hosted live on:** [https://travlr-dg.onrender.com/](https://travlr-dg.onrender.com/)
 - Feel free to play around and test it out.
 
 ---
