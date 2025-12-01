@@ -212,7 +212,12 @@ This enhancement focuses on migrating the database to a **cloud platform** such 
 - **Outcome 5:** Develop a security mindset that anticipates adversarial exploits and mitigates design flaws to ensure privacy and enhanced security. 
 
 #### **Narratives:**
-- I have selected algorithms and event listeners that will be responsible for updating the elements via dedicated and modular JavaScript code sections, making the app dynamic and vibrant.
+- I first created a new account in Atlas and defined limited user role permissions for my app to talk to the database as a measure of precaution and security. This practice will ensure that app users have access to the database without risking exposure to other sensitive data or harming it.
+- I have rebuilt my database and added more tables to hold data, while keeping speed, functionality, and storage in mind. To accomplish the above-mentioned, I had to rewrite my queries into compound ones, which resulted in a faster response rate by minimizing the need to sort data on the client/server, since it can be retrieved, sorted, and filtered directly from the database.
+- Despite adding more complexity to the database and the development and testing process, it allowed me to save storage space, increase efficiency, and develop an encapsulated, robust data structure.
+- While security was in mind, I had to secure my exposed API endpoints to the database against unauthorized use. Therefore, I secured all my endpoints with HttpOnly and strict cookies to provide the best defence against CSRF and cross-site scripting.
+- In addition to ensuring that my users' data is secure, I implemented a Time-based One-Time Password (TOTP) authenticator during registration and login to minimize the risk of breaches and data theft.
+- Ultimately, I developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
 
 #### The MongoDB Atlas Cloud Database Optimization
 ![Database Optimization](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/DatabaseIndex.png)
