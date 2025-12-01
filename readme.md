@@ -3,7 +3,7 @@
 **CS-499 Computer Science Capstone – Dec 01, 2025**
 
 ## Table of Contents
-1. [Self-Introduction](#1️⃣.-Self-Introduction)
+1. [Self-Introduction](#1️⃣-self-introduction)
 2. [ePortfolio Setup](#2️⃣.-ePortfolio-Setup)
 3. [Project Deployment](#3️⃣.-Project-Deployment)
 4. [Code Review](#4️⃣.-Code-Review)
@@ -11,7 +11,7 @@
 
 ---
 
-## 1️⃣. Self-Introduction  
+#1️⃣-self-introduction  
 
 After completing three and a half years in the Computer Science program, focusing on data and software engineering, I have been exposed to various programming languages, architectures, designs, and execution environments, and have developed a strong mindset for solving complex problems and meeting deadlines.
 While in the program, I learned at night and worked full-time as a service manager while being a father to three wonderful kids. But most importantly, I learned to think outside the box and always consider the interaction between the user and the software—such as the user's safety and security, functionality, and design—and how easy and intuitive it will be for users to operate the software.  
