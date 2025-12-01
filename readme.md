@@ -3,11 +3,11 @@
 **CS-499 Computer Science Capstone – Dec 01, 2025**
 
 ## Table of Contents
-1. [Self-Introduction](#i-self-introduction)
-2. [ePortfolio Setup](#ii-ePortfolio-Setup)
-3. [Project Deployment](#iii-Project-Deployment)
-4. [Code Review](#iv-code-review)
-5. [Enhancement Plan](#v-enhancement-plan)
+1. [Self-Introduction](#1️⃣.-Self-Introduction)
+2. [ePortfolio Setup](#2️⃣.-ePortfolio-Setup)
+3. [Project Deployment](#3️⃣.-Project-Deployment)
+4. [Code Review](#4️⃣.-Code-Review)
+5. [Enhancement Plan](#5️⃣.-Enhancement-Plan)
 
 ---
 
