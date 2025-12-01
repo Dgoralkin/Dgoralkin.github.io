@@ -50,7 +50,7 @@ To demonstrate my skills, I chose to enhance the "Travlr" full-stack app develop
 ## III. Enhanced project Deployment on Rended
 
 <a href="https://travlr-dg.onrender.com/">
-    <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Travlr_Demo.gif?raw=true" width="200">
+    <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Travlr_Demo.gif?raw=true" width="400">
 </a>
 
 - **Hosted live on:** [https://travlr-dg.onrender.com/](https://travlr-dg.onrender.com/)
@@ -91,7 +91,7 @@ It highlights how I apply computer science principles and techniques to solve re
 ### **Self-Assessment Code Review**
 
 <a href="https://www.youtube.com/watch?v=a1f7fYMmwT0">
-    <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Code_Review_Demo.gif?raw=true" width="400">
+    <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Code_Review_Demo.gif?raw=true" width="200">
 </a>
 
 - **Watch my code review on YouTube** [Travlr Code Review](https://www.youtube.com/watch?v=a1f7fYMmwT0)
@@ -127,8 +127,8 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 - Applying secure, scalable, and modern design practices  
 
 #### Aligned Course Outcomes:
-- Apply innovative tools and techniques to deliver value and meet industry goals.  
-- Develop a security mindset to identify vulnerabilities and protect user data.  
+- **Outcome 3:** Apply innovative tools and techniques to deliver value and meet industry goals.  
+- **Outcome 4:** Employ strategies for building collaborative environments that enable diverse audiences.
 
 #### **Narratives:**
 - Building this project half a year ago was my first experience working with JavaScript and RESTful API. Although I already have some experience with databases running on a local machine, it seemed to me so outdated to build a modern software upon “old” technology, hence moving to the cloud and benefiting from scaling, security, and the added value of data analysis that could be done in the cloud was a cornerstone in choosing that artifact.
@@ -138,7 +138,6 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 - The enhancement process itself, once again, reminded me of the value of creating and following a well-written development plan, adhering to a dedicated timeline, and splitting complex work into smaller development blocks that will work in harmony to form the complete picture. With that said, the work on this project allowed me to expand my skills by learning another programming language, improving my UX/UI development skills, and using and implementing modern technologies, such as MongoDB Atlas for data storage and Postman for testing my code's functionality. 
 
 #### Project Design Comparison
-
 
 | Old Design | Enhanced Responsive Design | Mobile Design |
 |------------|---------------------------|---------------|
@@ -169,9 +168,27 @@ The goal is to transform the website into an **intelligent platform** using algo
 - **Outcome 3:** Design and evaluate computing solutions using algorithmic principles.  
 - **Outcome 4:** Use innovative tools and techniques to deliver professional, industry-level functionality.  
 
-##### **Narratives:**
-- Bu
-- 
+#### **Narratives:**
+- I have selected algorithms and event listeners that will be responsible for updating the elements via dedicated and modular JavaScript code sections, making the app dynamic and vibrant.
+- I rebuilt my database and added more tables to hold data while considering speed, functionality and storage in mind.
+- Rewrote my queries into compound ones, which resulted in a faster response rate by minimizing the need to sort data on the client/server, since it can be retrieved, sorted, and filtered directly from the database.
+- Despite adding more complexity to the database and the development and testing process, it allowed me to save storage space, increase efficiency, and develop an encapsulated, robust data structure.
+- This practice and enhancement helped me develop well-founded, innovative techniques and skills, and to use existing libraries to implement computer solutions that deliver value and accomplish industry-specific goals.
+- Another solved challenge in this enhancement was creating the cart logic and functionality from scratch, as well as managing sessions and authentications. During the testing phase, I found that the architecture I used left my data traversing the web insecure and vulnerable to cross-scripting and hijacking, as it was improperly created and stored on the server and wasn’t encrypted.
+- To achieve and develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources, I had to rewrite the logic and the architecture to protect the data and create encapsulation for each user.
+- Established timed data sessions, which will sign out inactive users, and created private user tokens to instantiate privacy and security while isolating sensitive user information and wrapping it in a protection layer.
+
+#### The MongoDB Atlas Cloud Database Deployment
+![MongoDB Atlas]([https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Commenting.png](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Atlas%20DB.png))
+
+#### Managing Sessions and Privacy Through Cookies
+
+**Guest user session**
+![GuestUserSession]([https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Commenting.png](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Cookies1.png))
+
+**Registered user logged in simultaneously**
+![RegisteredUserSession]([https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Commenting.png](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Cookies2.png))
+
 ---
 
 ### **Category Three: Databases**
@@ -192,5 +209,5 @@ This enhancement focuses on migrating the database to a **cloud platform** such 
 
 #### Aligned Course Outcomes:
 - **Outcome 1:** Build collaborative environments for diverse audiences to support decision-making.  
-- **Outcome 4:** Use innovative computing tools to create value and achieve industry goals.  
+- **Outcome 3:** Use innovative computing tools to create value and achieve industry goals.  
 
