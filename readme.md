@@ -1,6 +1,6 @@
-# CS 499 Module One Assignment  
+# My ePortfolio 
 **Daniel Gorelkin**  
-**CS-499 Computer Science Capstone – November 01, 2025**  
+**CS-499 Computer Science Capstone – Dec 01, 2025**  
 
 ---
 
