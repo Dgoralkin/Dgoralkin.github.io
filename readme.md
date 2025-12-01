@@ -50,7 +50,7 @@ To demonstrate my skills, I chose to enhance the "Travlr" full-stack app develop
 ## III. Enhanced project Deployment on Rended
 
 <a href="https://travlr-dg.onrender.com/">
-    <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Travlr_Demo.gif?raw=true" width="400">
+    <img src="https://youtu.be/JePZvT62_P8" width="400">
 </a>
 
 - **Hosted live on:** [https://travlr-dg.onrender.com/](https://travlr-dg.onrender.com/)
