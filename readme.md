@@ -91,7 +91,7 @@ It highlights how I apply computer science principles and techniques to solve re
 ### **Self-Assessment Code Review**
 
 <a href="https://www.youtube.com/watch?v=a1f7fYMmwT0">
-    <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Code_Review_Demo.gif?raw=true" width="200">
+    <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Code_Review_Demo.gif?raw=true" width="400">
 </a>
 
 - **Watch my code review on YouTube** [Travlr Code Review](https://www.youtube.com/watch?v=a1f7fYMmwT0)
@@ -130,19 +130,22 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 - Apply innovative tools and techniques to deliver value and meet industry goals.  
 - Develop a security mindset to identify vulnerabilities and protect user data.  
 
-##### **Narratives:**
+#### **Narratives:**
 - Building this project half a year ago was my first experience working with JavaScript and RESTful API. Although I already have some experience with databases running on a local machine, it seemed to me so outdated to build a modern software upon “old” technology, hence moving to the cloud and benefiting from scaling, security, and the added value of data analysis that could be done in the cloud was a cornerstone in choosing that artifact.
 - While enhancing the original project and taking the lead over the development, I practiced and improved my skills in JavaScript, delved deeper into working with CSS, HTML, and Handlebars, implemented a modern and remote database from scratch while creating separate user roles to improve security, collaboration, and functionality.
 - Beyond the technical aspect, I also implemented best practices in coding by making the code more readable, modular and maintainable by splitting it into separate code files, re-organizing the files for easier navigation and improved logic
 - Accomplishing the above allowed me to demonstrate an ability to use well-founded and innovative techniques, skills, and tools to implement computer solutions that deliver value and achieve industry-specific goals, and to employ a collaborative environment to address diverse audiences and support decision-making in the field of computer science.
 - The enhancement process itself, once again, reminded me of the value of creating and following a well-written development plan, adhering to a dedicated timeline, and splitting complex work into smaller development blocks that will work in harmony to form the complete picture. With that said, the work on this project allowed me to expand my skills by learning another programming language, improving my UX/UI development skills, and using and implementing modern technologies, such as the MongoDB Atlas database for data storage and Postman for testing the functionality of my code. 
 
-### Project Design Comparison
+#### Project Design Comparison
 
 
 | Old Design | Enhanced Responsive Design | Mobile Design |
 |------------|---------------------------|---------------|
 | ![Old Design](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Old%20design.png) | ![Enhanced Design](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/New%20design.png) | ![Mobile Design](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Mobile%20design.png) |
+
+#### Following Best Practices
+![Best Practices](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Commenting.png)
 
 ---
 
