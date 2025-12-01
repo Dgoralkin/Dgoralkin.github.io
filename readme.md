@@ -29,7 +29,7 @@ For example, I had the chance to play the role of the Scrum master and the proje
 
 Eventually, the program did not teach me to "just write code," but to think like a state-of-the-art software developer who sees the big picture, from collecting user stories to clean deployment, project summary, and assessment. I had the chance to practise multiple programming languages such as Python, C++, Java, JavaScript, including running queries and building relational and non-relational databases as MySQL and MongoDB, I had the chance to practise as a data analyst while scraping and cleaning code using the R language, while communicating the findings and providing visualized recommendation plans using Power BI, Tableu, or Knime. As well as working with RESTful APIs and developing software for Android mobile devices. Ultimately, I had the chance to build several full-stack applications using Maven, Node and Python libraries. In addition, I practised in developing an AI agent and studied the technology behind ML and DL, as well as modelled and executed a picture-based scenario into a computerized 3D navigation environment.
 
-The end result? Combining my freshly acquired skills with my previous knowledge and 14 years of experience as a self-employed and founder of a small-sized company, I feel comfortable holding both sides of the sword and being a solo software developer, as well as a meaningful team leader that drives his team to success by acting as a role model!
+The end result? Combining my freshly acquired skills with my previous knowledge and 14 years of experience as a self-employed and founder of a small-sized company, I feel comfortable holding both sides of the sword and being a solo software developer, as well as a meaningful team leader who drives his team to success by acting as a role model!
 To demonstrate my skills, I chose to enhance the "Travlr" full-stack app developed from my CS-465 coursework by demonstrating mastery in Software design and Engineering, Algorithms and Data structures, and Databases.
 
 ### To do so, I will:
@@ -88,7 +88,7 @@ It highlights how I apply computer science principles and techniques to solve re
     <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Code_Review_Demo.gif?raw=true" width="500">
 </a>
 
-- **Watch my code review on YouTube** [Travlr Code Review](https://www.youtube.com/watch?v=a1f7fYMmwT0)
+- [ ▶︎ ]**Watch my code review on YouTube** [Travlr Code Review](https://www.youtube.com/watch?v=a1f7fYMmwT0)
 - Feel free to watch the code review.
 
 ---
