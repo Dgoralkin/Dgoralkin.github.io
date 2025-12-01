@@ -1,12 +1,16 @@
 # My ePortfolio 
 **Daniel Gorelkin**  
-**CS-499 Computer Science Capstone – Dec 01, 2025**  
+**CS-499 Computer Science Capstone – Dec 01, 2025**
+
+## Table of Contents
+1. [Self-Introduction](#i-self-introduction)
+2. [ePortfolio Setup](#ii-ePortfolio Setup)
+3. [Project Deployment](#iii-enhanced-project-deployment)
+4. [Code Review](#iv-code-review)
+5. [Enhancement Plan](#v-enhancement-plan)
 
 ---
 
-<div style="background:#7afaf1;padding:10px;border-radius:6px;">
-    <b>I. Self-Introduction</b>
-</div>
 ## I. Self-Introduction  
 
 After completing three and a half years in the Computer Science program, focusing on data and software engineering, I have been exposed to various programming languages, architectures, designs, and execution environments, and have developed a strong mindset for solving complex problems and meeting deadlines.  
