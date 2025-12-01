@@ -97,7 +97,7 @@ It highlights how I apply computer science principles and techniques to solve re
 
 ---
 
-### **Category One: Software Engineering and Design**
+### 📌**Category One: Software Engineering and Design**
 
 The artifact to be enhanced under the **Software Engineering and Design** category is the *Travlr mid-course project milestone* from the CS-465 Full Stack Development class.  
 
@@ -144,7 +144,7 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 
 ---
 
-### **Category Two: Algorithms and Data Structures**
+### 📌**Category Two: Algorithms and Data Structures**
 
 The second enhancement continues using the **Travlr project** as the base artifact.  
 
@@ -187,7 +187,7 @@ The goal is to transform the website into an **intelligent platform** using algo
 
 ---
 
-### **Category Three: Databases**
+### 📌**Category Three: Databases**
 
 The Travlr artifact currently uses a local database, which limits collaboration and scalability.  
 This enhancement focuses on migrating the database to a **cloud platform** such as MongoDB Atlas or Amazon RDS.  
