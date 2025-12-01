@@ -179,15 +179,15 @@ The goal is to transform the website into an **intelligent platform** using algo
 - Established timed data sessions, which will sign out inactive users, and created private user tokens to instantiate privacy and security while isolating sensitive user information and wrapping it in a protection layer.
 
 #### The MongoDB Atlas Cloud Database Deployment
-![MongoDB Atlas]([https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Commenting.png](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Atlas%20DB.png))
+![MongoDB Atlas](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Atlas%20DB.png)
 
 #### Managing Sessions and Privacy Through Cookies
 
 **Guest user session**
-![GuestUserSession]([https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Commenting.png](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Cookies1.png))
+![GuestUserSession](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Cookies1.png)
 
 **Registered user logged in simultaneously**
-![RegisteredUserSession]([https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Commenting.png](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Cookies2.png))
+![RegisteredUserSession](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Cookies2.png)
 
 ---
 
