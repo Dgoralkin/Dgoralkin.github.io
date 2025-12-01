@@ -4,7 +4,7 @@
 
 ## Table of Contents
 1. [Self-Introduction](#i-self-introduction)
-2. [ePortfolio Setup](#ii-ePortfolio Setup)
+2. [ePortfolio Setup](#ii-ePortfolio-Setup)
 3. [Project Deployment](#iii-enhanced-project-deployment)
 4. [Code Review](#iv-code-review)
 5. [Enhancement Plan](#v-enhancement-plan)
