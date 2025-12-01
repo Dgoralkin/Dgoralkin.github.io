@@ -4,7 +4,7 @@
 
 ---
 
-<div style="background:#f3f3f3;padding:10px;border-radius:6px;">
+<div style="background:#7afaf1;padding:10px;border-radius:6px;">
     <b>I. Self-Introduction</b>
 </div>
 ## I. Self-Introduction  
