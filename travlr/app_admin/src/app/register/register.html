@@ -1,0 +1,79 @@
+<div class="container py-5 d-flex justify-content-center align-items-center bg-light">
+  <div class="card shadow-lg border-0 rounded-4 p-4 col-12 col-md-6 col-lg-4">
+    <h2 class="text-center mb-4 fw-bold text-primary">Register As Admin (DEVELOPMENT EXAMPLE)</h2>
+
+    <form (ngSubmit)="onRegisterSubmit()" class="needs-validation" novalidate>
+      <!-- Error alert -->
+      <div *ngIf="formError" class="alert alert-danger text-center py-2" role="alert">
+        {{ formError }}
+      </div>
+
+      <!-- First Name -->
+      <div class="mb-3">
+        <label for="fName" class="form-label fw-semibold">First Name</label>
+        <input
+          type="text"
+          id="fName"
+          name="fName"
+          class="form-control"
+          placeholder="Enter your first name"
+          [(ngModel)]="credentials.fName"
+          required
+        >
+      </div>
+
+      <!-- Last Name -->
+      <div class="mb-3">
+        <label for="lName" class="form-label fw-semibold">Last Name</label>
+        <input
+          type="text"
+          id="lName"
+          name="lName"
+          class="form-control"
+          placeholder="Enter your last name"
+          [(ngModel)]="credentials.lName"
+          required
+        >
+      </div>
+
+      <!-- Email -->
+      <div class="mb-3">
+        <label for="email" class="form-label fw-semibold">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-control"
+          placeholder="Enter your email"
+          [(ngModel)]="credentials.email"
+          required
+        >
+      </div>
+
+      <!-- Password -->
+      <div class="mb-4">
+        <label for="password" class="form-label fw-semibold">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="form-control"
+          placeholder="e.g. 12+ alphanumerics"
+          [(ngModel)]="credentials.password"
+          required
+        >
+      </div>
+
+      <!-- Submit -->
+      <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">
+        Register
+      </button>
+    </form>
+
+    <!-- Register new user -->
+    <p class="text-center mt-3 mb-0 text-muted">
+      Already have an account?
+      <a routerLink="/" class="text-decoration-none fw-semibold">Sign In</a>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+<!-- ====================================================================
+  File: footer.hbs
+  Description: Defines the footer for all web application's pages.
+                includes bottom navigation and social media links.
+  Author: Daniel Gorelkin
+  Version: 1.1
+  Created: 2025-08-15
+  Updated: 2025-11-10
+===================================================================== -->
+
+<!-- Bottom navigation bar for the website pages and admin login -->
+<div id="footer">
+
+    <!-- Upate the class with the "active" style to highlight the existing page -->
+    <ul class="navigation">
+        <li class="{{#if (eq currentPage '/')}}active{{/if}}">
+            <a href="/">Home</a>
+        </li>
+        <li class="{{#if (eq currentPage 'travel')}}active{{/if}}">
+            <a href="/travel">Travel</a>
+        </li>
+        <li class="{{#if (eq currentPage 'rooms')}}active{{/if}}">
+            <a href="/rooms">Rooms</a>
+        </li>
+        <li class="{{#if (eq currentPage 'meals')}}active{{/if}}">
+            <a href="/meals">Meals</a>
+        </li>
+        <li class="{{#if (eq currentPage 'news')}}active{{/if}}">
+            <a href="/news">News</a>
+        </li>
+        <li class="{{#if (eq currentPage 'about')}}active{{/if}}">
+            <a href="/about">About</a>
+        </li>
+        <li class="{{#if (eq currentPage 'contact')}}active{{/if}}">
+            <a href="/contact">Contact</a>
+        </li>
+
+        <!-- User login button link, opens in a new tab -->
+        <li class="admin-link">
+            <a href="https://admin-travlr-dg.onrender.com" target="_blank">Admin Login</a>
+        </li>
+    </ul>
+
+    <!-- Optional social media links -->
+    <!-- <div id="connect">
+        <a href="https://github.com/Dgoralkin/Portfolio/" target="_blank" class="pinterest"></a>
+        <a href="https://github.com/Dgoralkin/Portfolio/" target="_blank" class="facebook"></a>
+        <a href="https://github.com/Dgoralkin/Portfolio/" target="_blank" class="twitter"></a>
+        <a href="https://github.com/Dgoralkin/Portfolio/" target="_blank" class="googleplus"></a>
+    </div> -->
+
+    <!-- Company copyright text -->
+    <p class="footer-text">
+        © 2025 by Daniel Gorelkin for Travlr Getaways.<br>
+        Try it live @ 
+        <a href="https://travlr-dg.onrender.com/" target="_blank" class="footer-link">
+            Travlr-DG.OnRender.com
+        </a>
+        <p>
+        Find me on Github:
+        <a href="https://github.com/Dgoralkin/Dgoralkin.github.io" target="_blank" class="footer-link">
+            github.com/Dgoralkin/Dgoralkin.github.io
+        </a>
+    </p>
+</div>

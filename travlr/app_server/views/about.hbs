@@ -1,0 +1,185 @@
+<!-- ====================================================================
+  File: about.hbs
+  Description: Template for displaying the "About Us" information section.
+  Author: Daniel Gorelkin
+  Version: 1.2
+  Created: 2025-08-22
+  Updated: 2025-11-10
+  Template Credits: freewebsitetemplates.com
+
+  Purpose:
+    - Part of the Travlr CMS project
+    - Responsible for rendering the About Us content dynamically
+    - Displays company information, crew details, amenities,
+      community introduction, and template details
+
+  Expected Input Structure:
+    about_us: {
+      content: {
+        paragraph_1: String,
+        paragraph_2: String
+      },
+      crews: String,
+      amenities: String,
+      community: String,
+      details: String
+    }
+===================================================================== -->
+
+<!DOCTYPE html>
+<html>
+
+  <!-- Shared HEAD partial containing metadata, styles, and scripts.
+  Loaded using handlebars from the head.hbs partial file. -->
+  {{> head }}
+
+  <body>
+    <div id="background">
+
+      <div id="page">
+
+        <!-- Header partial (logo, navigation, login option).
+        Loaded via header.hbs and shared across all pages. -->
+        {{> header }}
+
+        <!-- Main content block for About Us section.
+        Uses the "about_us" object passed from the about.js controller. -->
+        <div id="contents">
+          <div class="box">
+            <div>
+              <div class="body">
+
+                <!-- Page Title -->
+                <h1>About Me - Daniel Gorelkin</h1>
+
+                <!-- Subheading and dynamic introductory content -->
+                <h3>ePortfolio Setup</h3>
+                <p>{{{ about_us.content.paragraph_1 }}}</p>
+                <p>{{{ about_us.content.paragraph_2 }}}</p>
+
+                <hr>
+
+                <!-- Crew and Amenities information block -->
+                <div class="ads">
+                  <h3>Category One: Software Engineering and Design</h3>
+                  <p>
+                    The artifact enhanced under this category is the Travlr mid-course milestone project from the CS-465 Full Stack Development class.
+                    The redesigned version adopts a mobile-first approach to ensure full compatibility across mobile and desktop devices.
+
+                    Enhancements include:
+                    <br><br>
+                    • User account creation<br>
+                    • Two-step authentication (2SV)<br>
+                    • User login system<br>
+                    • Cart functionality for booking and order management<br>
+                    • UI redesign for improved professionalism and usability<br>
+                    • Migration from a local database to MongoDB Atlas<br>
+                    • Testing and deployment in a production environment<br><br>
+
+                    <strong>Skills Demonstrated:</strong><br>
+                    Updating software architecture, implementing authentication, cloud database migration, and applying modern secure design practices.<br><br>
+
+                    <strong>Aligned Course Outcomes:</strong><br>
+                    Outcome 2 – Apply innovative tools and techniques to deliver value and meet industry goals.<br>
+                    Outcome 5 – Develop a security mindset to identify vulnerabilities and protect user data.
+                  </p>
+
+                  <h3>Category Two: Algorithms and Data Structures</h3>
+                  <p>
+                    The second enhancement extends the Travlr project by adding algorithmic intelligence to improve performance and search efficiency.
+
+                    Enhancement steps include:
+                    <br><br>
+                    • Implementing server-side indexing and optimized MongoDB queries for faster results<br>
+                    • Developing multi-criteria filtering algorithms (destination, price, rating, etc.)<br>
+                    • Improving responsiveness and overall UX through algorithmic optimization<br><br>
+
+                    <strong>Skills Demonstrated:</strong><br>
+                    Implementing optimized search and filtering algorithms, applying algorithmic principles, and communicating technical results effectively.<br><br>
+
+                    <strong>Aligned Course Outcomes:</strong><br>
+                    Outcome 3 – Design and evaluate computing solutions using algorithmic principles.<br>
+                    Outcome 4 – Use innovative tools and techniques to deliver professional, industry-level functionality.
+                  </p>
+
+                  <h3>Category Three: Databases</h3>
+                  <p>
+                    This enhancement focuses on migrating the Travlr data layer to a scalable cloud environment using MongoDB Atlas.
+
+                    Enhancement steps include:
+                    <br><br>
+                    • Creating and configuring a secure MongoDB Atlas cluster with role-based access control<br>
+                    • Migrating all data from the local database to the cloud<br>
+                    • Developing a secure RESTful API for front-end connectivity<br>
+                    • Enabling collaborative workflows for admins and analysts using tools such as Power BI or Tableau<br><br>
+
+                    <strong>Skills Demonstrated:</strong><br>
+                    Designing and deploying modern databases, managing scalability trade-offs, and enabling secure collaboration.<br><br>
+
+                    <strong>Aligned Course Outcomes:</strong><br>
+                    Outcome 1 – Build collaborative environments for diverse audiences to support decision-making.<br>
+                    Outcome 4 – Use innovative computing tools to create value and achieve industry goals.
+                  </p>
+                </div>
+
+                <!-- Community message -->
+                <h2>Be Part of Our Community</h2>
+                <p>
+                  Join a growing network of learners, developers, and professionals committed to building modern, secure, and scalable applications.
+                  The Travlr enhancement demonstrates how thoughtful design and technology can create meaningful, real-world value.
+                </p>
+
+                <!-- Template details -->
+                <h2>Community Details</h2>
+                <p>
+                  This project showcases full-stack development, database engineering, user-centric design principles, and secure software practices.
+                  It reflects a commitment to continuous improvement, collaborative development, and industry-aligned innovation.
+                </p>
+
+                <br>
+                <h2><strong>ePortfolio Overall Skill Set</strong></h2>
+                <h3>This ePortfolio demonstrates my ability to design, develop, and enhance full-stack web applications with strong emphasis on:</h3>
+                <p>
+                  • High-quality user experience and responsive interfaces<br>
+                  • Secure data management and cloud-based integration<br>
+                  • Algorithmic problem-solving and efficient data handling<br>
+                  • It highlights how I apply computer science principles and techniques to solve real-world problems and deliver professional, standards-compliant solutions.<br>
+                </p>
+
+                <h4>Code Review Focus</h4>
+                <p>
+                  • Applying algorithmic principles to improve performance<br>
+                  • Writing secure, maintainable, and scalable code<br>
+                  • Following best practices and modern development standards<br>
+                </p>
+
+                <h4>Narratives Focus</h4>
+                <p>
+                  • Communicating technical details to diverse audiences<br>
+                  • Explaining design trade-offs and rationale<br>
+                  • Connecting development choices to professional outcomes<br>
+                </p>
+
+                <h4>Professional Self-Assessment Focus</h4>
+                <p>
+                  • Reflecting on growth in technical and professional skills<br>
+                  • Integrating academic learning into real-world practice<br>
+                  • Demonstrating readiness for professional roles and employment readability<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer partial (links, navigation, admin login).
+      Loaded via footer.hbs and shared across all pages. -->
+      {{> footer }}
+
+    </div>
+
+    <script src="/javascripts/registerAndLogin.js"></script>
+
+  </body>
+</html>

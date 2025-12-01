@@ -1,0 +1,62 @@
+<!-- ====================================================================
+  File: header.hbs
+  Description: Defines the header for all web application's pages.
+                includes company logo, top navigation and user login button.
+  Author: Daniel Gorelkin
+  Version: 1.1
+  Created: 2025-08-15
+  Updated: 2025-11-10
+===================================================================== -->
+
+<!-- Upper navigation bar for the website pages and user login-->
+<div id="header">
+
+    <!-- Company logo that links back to the homepage -->
+    <div id="logo">
+        <a href="/">
+            <img src="/images/TravlrGetawaysLogo.png" alt="LOGO" height="100" width="200"/>
+        </a>
+    </div>
+
+    <!-- Update class with the "selected" style to highlight the existing page -->
+    <div id="navigation">
+        <ul>
+            <li class="{{#if (eq currentPage '/')}}selected{{/if}}">
+                <a href="/">Home</a>
+            </li>
+            <li class="{{#if (eq currentPage 'travel')}}selected{{/if}}">
+                <a href="/travel">Travel</a>
+            </li>
+            <li class="{{#if (eq currentPage 'rooms')}}selected{{/if}}">
+                <a href="/rooms">Rooms</a>
+            </li>
+            <li class="{{#if (eq currentPage 'meals')}}selected{{/if}}">
+                <a href="/meals">Meals</a>
+            </li>
+            <li class="{{#if (eq currentPage 'news')}}selected{{/if}}">
+                <a href="/news">News</a>
+            </li>
+            <li class="{{#if (eq currentPage 'about')}}selected{{/if}}">
+                <a href="/about">About</a>
+            </li>
+            <li class="{{#if (eq currentPage 'contact')}}selected{{/if}}">
+                <a href="/contact">Contact</a>
+            </li>
+            <li class="user-link" id="navbar_login_btn">
+                {{#if isLoggedIn}}
+                    <a href="#" onclick="logoutUser()" id="logoutBtn" style="color: #f4a261;">Logout</a>
+                {{else}}
+                    <a href="/login">Login</a>
+                {{/if}}
+            </li>
+
+            <!-- Shopping cart -->
+            <li class="cart-link-li">
+                <a class="cart-link" href="/cart">
+                    <img class="user-link-img" src="/images/shopping-cart.png" alt="Go To The Shopping Cart">
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</div>

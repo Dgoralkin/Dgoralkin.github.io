@@ -1,0 +1,108 @@
+<!-- ====================================================================
+  File: meals.hbs
+  Description: Template for displaying all available meal packages.
+  Author: Daniel Gorelkin
+  Version: 1.2
+  Created: 2025-08-20
+  Updated: 2025-11-10
+
+  Purpose:
+    - Part of the Travlr CMS project
+    - Responsible for rendering the list of available meals
+    - Dynamically displays meals data received from the controller
+      via the "trips" JSON object passed in the rendering context.
+===================================================================== -->
+
+<!DOCTYPE html>
+<html>
+
+	<!-- Use handlebars templating to inject shared HEAD block content.
+  	Content is read from the head.hbs partial file. -->
+	{{> head }}
+
+	<body>
+		<div id="background">
+
+			<div id="page">
+
+				<!-- Header block (logo, navigation, login button).
+        		Loaded from the header.hbs partial and shared across all project pages. -->
+				{{> header }}
+
+				<!-- The main contents block.
+        		Displays all travel packages using the "trips" array passed from the controller.
+        		Expected structure:
+          		meals: [{ _id: String, meal: String, image: String, description: String }] -->
+				<div id="contents">
+					<div class="box">
+						<div>
+							<div class="body">
+								<!-- Page Title -->
+								<h1>Meals</h1>
+								<h3></h3>
+
+								<!-- Loop through each trip object and render its data.
+                				Each trip includes an image, name, and description text.
+                				Image fallback is applied if the specified file is missing. -->
+								<ul id="foods">
+									<!-- Loop to parse passed data through controllers res, from the meals.json file -->
+									{{#each meals_data}}
+									<li>
+										<h2>
+											<a href="/api/meals/{{this.meal}}">{{meal}}</a>
+										</h2>
+										<div class="infos">
+											<a href="/api/meals/{{this.meal}}">
+											<img src="images/{{image}}" alt="Img" height="169" width="780"><span class="cover"></span>
+											</a>
+											<p>
+												{{{description}}}
+											</p>
+
+											<!-- Container for the add to cart button -->
+											<div class="trip-header">
+												<span class="rate">Rate: ${{rate}} / Meal</span>
+
+												<!-- Add item to cart functionality -->
+												<!-- The form submits a POST request to add the selected meal to the shopping cart. -->
+												<!-- The hidden inputs specify the collection, item name, code and ID for server processing. -->
+												<!-- See public/javascripts/addItemToCart.js for handling the form submission asynchronously. -->
+												<form action="/api/cart" method="POST" class="add-to-cart-form">
+													<input type="hidden" name="collection" value="meals">
+													<input type="hidden" name="_id" value="{{this._id}}">
+													<input type="hidden" name="itemCode" value="{{this._id}}">
+													<input type="hidden" name="itemName" value="{{this.meal}}">
+													<input type="hidden" name="itemRate" value="{{this.rate}}">
+													<input type="hidden" name="itemImage" value="{{this.image}}">
+													<!-- Submit btn triggers the EventListener in public/javascripts/travel.js. Icon uses the Icon font from Bootstrap library -->
+													<button id="formButton{{this._id}}" type="submit" class="add-to-cart-btn"> <i class="bi bi-cart-plus"></i> Add to cart </button>
+												</form>
+												<p></p>
+											</div>
+										</div>
+
+										<h3></h3>
+									</li>
+									{{/each}}
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+			<!-- Footer block (external links, navigation, admin login).
+      		Loaded from the footer.hbs partial file. -->
+			{{> footer }}
+
+		</div>
+
+		<!-- JavaScript to handle "Add to Cart" form submissions asynchronously -->
+		<!-- Prevents page reload and provides user feedback during the process. -->
+		<!-- Script located in public/javascripts/cart.js -->
+		<script src="/javascripts/addItemToCart.js"></script>
+		<script src="/javascripts/registerAndLogin.js"></script>
+
+	</body>
+</html>

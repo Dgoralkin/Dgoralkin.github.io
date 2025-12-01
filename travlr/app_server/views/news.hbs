@@ -1,0 +1,106 @@
+<!-- ====================================================================
+  File: news.hbs
+  Description: Template for displaying the latest company news.
+  Author: Daniel Gorelkin
+  Version: 1.2
+  Created: 2025-08-20
+  Updated: 2025-11-10
+
+  Purpose:
+    - Part of the Travlr CMS project
+    - Responsible for rendering the list of travel destinations
+    - Dynamically displays news data received from the controller
+      via the "news_data" JSON object passed in the rendering context.
+===================================================================== -->
+
+<!DOCTYPE html>
+<html>
+
+	<!-- Use handlebars templating to inject shared HEAD block content.
+  	Content is read from the head.hbs partial file. -->
+	{{> head }}
+	<body>
+		<div id="background">
+
+			<div id="page">
+
+				<!-- Header block (logo, navigation, login button).
+				Loaded from the header.hbs partial and shared across all project pages. -->
+				{{> header }}
+
+				<!-- The main news block.
+        		Displays all travel packages using the "news_data" object passed from the controller.
+				Expected structure:
+		  		news_data: [{
+					News_main: { image, author, date, title, link : String, content: [String] },
+					latest_news: [{ title, link, _id: String }],
+					vacation_tips: [{ title, link, _id: String }],
+					_id: String,
+					__v: Number	}] -->
+				<div id="contents">
+					<div class="box">
+						<div>
+							<div id="news" class="body">
+								
+								<!-- Page Title -->
+								<h1>News</h1>
+
+								<!-- The sidebar block displaying latest news and vacation tips. -->
+								<div class="sidebar">
+									<h3>Latest News</h3>
+
+									<!-- Loop through each news object and render its data. -->
+									<ul>
+										{{#each news_data.latest_news}}
+										<li><a href="/api/news/latest_news/{{title}}">{{title}}</a></li>
+										{{/each}}
+									</ul>
+
+									<h3>Vaction Tips</h3>
+
+									<!-- Loop through each tip object and render its data. -->
+									<ul>
+										{{#each news_data.vacation_tips}}
+										<li><a href="/api/news/vacation_tips/{{title}}">{{title}}</a></li>
+										{{/each}}
+									</ul>
+
+								</div>
+
+								<!-- The main news content block. -->
+								<div>
+									<h1>News</h1>
+
+									<!-- A news decration image with a default image fallback if the specified file is missing. -->
+									<img 
+										src="images/{{news_data.News_main.image}}"
+										alt="Img"
+										onerror="this.onerror=null;this.src='images/logo.png';"
+									/>
+
+									<h2>{{news_data.News_main.title}}</h2>
+									<span class="time">{{news_data.News_main.date}}<br> by: {{news_data.News_main.author}}</span>
+									
+									<!-- Loop through each news object and render its data. -->
+									{{#each news_data.News_main.content}}
+									<p>{{this}}</p>
+									{{/each}}
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Footer block (external links, navigation, admin login).
+      		Loaded from the footer.hbs partial file. -->
+			{{> footer }}
+
+		</div>
+
+		<script src="/javascripts/registerAndLogin.js"></script>
+		
+	</body>
+</html>

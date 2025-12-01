@@ -1,0 +1,169 @@
+<!-- ====================================================================
+  File: cart.hbs
+  Description: Template for displaying all existing travel items from the cart
+  Author: Daniel Gorelkin
+  Version: 1.0
+  Created: 2025-11-13
+  Updated: NA
+
+  Purpose:
+    - Part of the Travlr CMS project
+    - Responsible for rendering the list of all the existing items from the cart collection.
+    - Dynamically displays cart data received from the controller
+      via a JSON array passed in the rendering context.
+    - Functionality dynamically creates buttons to increases/decreases and remove items from 
+      the database and the cart page consequently.
+===================================================================== -->
+
+<!DOCTYPE html>
+<html>
+
+  <!-- Use handlebars templating to inject shared HEAD block content.
+  Content is read from the head.hbs partial file. -->
+  {{> head }}
+
+  <body>
+    <div id="background">
+
+      <div id="page">
+
+        <!-- Header block (logo, navigation, login button).
+        Loaded from the header.hbs partial and shared across all project pages. -->
+        {{> header }}
+
+        <!-- The main contents block.
+        Displays all cart items using the passed array from the controller. -->
+        <div id="contents" class="container my-4">
+          <div class="row">
+
+            <!-- Left column: cart items list -->
+            <div class="col-md-6">
+              <div class="box">
+                <div>
+                  <div class="body">
+                    <h1>Your Shopping Cart</h1>
+
+                    <!-- Cart items list -->
+                    <!-- Loop dynamically through each cart object and render its data.
+                    object could be fetched from any collection in the database via
+                    findOneCartItem() @ /cart/:dbCollection/:itemId
+                    Each cart object includes an image, name, and description text.
+                    Image fallback is applied if the specified file is missing. -->
+                    <ul id="sites">
+                      {{#if cartItems.length}}
+                        {{#each cartItems}}
+                          <li>
+                            <a href="/api/{{this.dbCollection}}/{{this.code}}">
+                              <img 
+                                src="images/{{this.image}}" 
+                                alt="Img" 
+                                onerror="this.onerror=null;this.src='images/logo.png';"
+                                style="width: 66%; height: 100%; object-fit: cover;"
+                              />
+                            </a>
+                            <div class="trip-header">
+                              <h2>
+                                <a href="/api/{{this.dbCollection}}/{{this.code}}">{{this.name}}</a>
+                              </h2>
+
+                              <!-- See public/javascripts/cart.js for handling logic and functionality -->
+                              <h3 class="cart-item-controls">
+                                <div>
+                                  <p>
+                                    ${{this.rate}} x 
+                                    <span class="item-quantity" data-id="{{this._id}}">{{this.quantity}}</span>
+                                    
+                                    <!--  Increase/decrease/remove quantity and remove functionality buttons -->
+                                    <!--  Buttons trigger the EventListener in public/javascripts/updateCartItem.js -->
+                                    <button type="button" class="btn-quantity decrease" data-id="{{this._id}}">
+                                      <i class="bi bi-dash-circle"></i>
+                                    </button>
+                                    <button type="button" class="btn-quantity increase" data-id="{{this._id}}">
+                                      <i class="bi bi-plus-circle"></i>
+                                    </button>
+                                    <button type="button" class="btn-quantity remove" data-id="{{this._id}}">
+                                      <i class="bi bi-trash"></i>
+                                    </button>
+                                  </p>
+                                </div>
+                              </h3>
+
+                            </div>
+                            <p>{{this.description}}</p>
+                            <p>{{this.description_details}}</p>
+                          </li>
+                        {{/each}}
+                      {{else}}
+                        <p>Your cart is empty. <a href="/travel">Start shopping now!</a>!</p>
+                      {{/if}}
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right column: cart summary table -->
+            <!-- Table to display cart summary
+            Calculations done in javascripts/calculateCartTotal.js and populated dynamically
+            Triggered by the DOMContentLoaded listener in the server-side controller. -->
+
+            <div class="col-md-6 fixed-width">
+              <div class="box">
+                <div id="cart-summary" class="card shadow-sm">
+                  <div class="card-header bg-primary text-white"  id="cart-summary-header">
+                    <h2 class="mb-0">Your Cart</h2>
+                  </div>
+                  <div class="card-body p-0">
+                    <div class="table-responsive">
+                      <table class="table table-striped table-hover mb-0" id="cart-table">
+                        
+                        <thead class="table-light">
+                          <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Qty</th>
+                            <th>Total</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <!-- Dynamic rows inserted here -->
+                        </tbody>
+
+                        <tfoot class="table-light">
+                          <tr>
+                            <td colspan="3" class="text-end"><strong>Grand Total</strong></td>
+                            <td id="grand-total">$0.00</td>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer block (external links, navigation, admin login).
+      Loaded from the footer.hbs partial file. -->
+      {{> footer }}
+
+    </div>
+
+    <!-- JavaScript to handle cart calculation logic -->
+
+    <!-- Script located in public/javascripts/cart.js -->
+    <script src="/javascripts/updateCartItem.js"></script>
+
+    <!-- Script located in public/javascripts/calculateCartTotal.js -->
+    <script src="/javascripts/calculateCartTotal.js"></script>
+    
+    <script src="/javascripts/registerAndLogin.js"></script>
+
+  </body>
+</html>

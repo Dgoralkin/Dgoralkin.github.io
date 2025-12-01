@@ -1,0 +1,136 @@
+<!-- ====================================================================
+  File: index.hbs
+  Description: Main front-end template for the web application's homepage.
+  Author: Daniel Gorelkin
+  Version: 1.1
+  Created: 2025-08-15
+  Updated: 2025-11-10
+
+  Purpose:
+    - Part of the Travlr CMS project
+    - Includes header, navigation, and dynamic content placeholders
+      for displaying the content in the homepge via an API endpoint.
+===================================================================== -->
+
+<!DOCTYPE html>
+<html>
+  <!-- Shared HEAD partial containing metadata, styles, and scripts.
+  Loaded using handlebars from the head.hbs partial file. -->
+  {{> head }}
+  <body>
+
+    <div id="background">
+    <!-- The header block displays the company logo, and provides with functionality
+    to navigate between the website's pages as well as a user login button. Code read from the header.hbs file. -->
+    {{> header }}
+
+    <!-- The page block displays all page's main content read from the passed JSON data string:
+    1. Main page image | 2. page header and page description | 3. The blog | 4. testimonials  -->
+    <!-- Expected structure input:
+      {_id: String, heading: String, heading_text: String, Latest_Blog: String,
+      Blog_Entries: [], Testimonials_Heading: String, Testimonials: []} -->
+    <div id="page">
+      <div id="contents">
+
+        <!-- Display the main page slider and the page heading. -->
+        <div id="hero-slider" class="slider">
+
+          <div class="slides-container">
+
+            {{!-- Slides --}}
+            {{#each content.Slider_Images}}
+            <div class="slide {{#if @first}}active{{/if}}">
+              <img src="images/{{this.image}}" alt="{{this.image_alt}}">
+              <div class="slide-caption">
+                <h1>{{this.title}}</h1>
+                <p>{{this.description}}</p>
+              </div>
+            </div>
+            {{/each}}
+
+          </div>
+
+          <!-- Navigation arrows -->
+          <button class="slider-btn prev">❮</button>
+          <button class="slider-btn next">❯</button>
+
+        </div>
+
+        <!-- Display the main page image and the page heading. -->
+        <div id="hero-adbox">
+          <img src="images/sea-sound.jpg" alt="Img" />
+          <h1>{{content.heading}}</h1>
+          <p>{{{content.heading_text}}}</p> 
+        </div>
+
+        <!-- The Blog block.
+        Displays all available blogs read from the database through a for each loop. -->
+        <div id="main">
+          <div class="box">
+            <div>
+              <div>
+                <h3>{{content.Latest_Blog}}</h3>
+                <ul>
+                  {{#each content.Blog_Entries}}
+                  <li>
+                    <h4><a href="{{this.link}}">{{this.title}}</a></h4>
+                    <span>{{this.date}}</span>
+                    <p>{{this.excerpt}}</p>
+                  </li>
+                  {{/each}}
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- The testimonials block.
+          Displays all available testimonials read from the database through a for each loop. -->
+          <div id="testimonials" class="box">
+            <div>
+              <div>
+                <h3>{{content.Testimonials_Heading}}</h3>
+                {{#each content.Testimonials}}
+                <p>
+                  "{{text}}"
+                  <span>- <a href="{{link}}">{{author}}</a></span>
+                </p>
+                {{/each}}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- The sidebar provides additional pages navigation functionality via images -->
+        <div id="sidebar" class="sidebar-modern">
+          <a href="rooms" class="sidebar-card">
+            <img src="images/rooms.png" alt="Rooms">
+            <span>Rooms</span>
+          </a>
+
+          <a href="travel" class="sidebar-card">
+            <img src="images/dive-site.png" alt="Travel">
+            <span>Travel</span>
+          </a>
+
+          <a href="meals" class="sidebar-card">
+            <img src="images/food.png" alt="Meals">
+            <span>Meals</span>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Footer partial (links, navigation, admin login).
+      Loaded via footer.hbs and shared across all pages. -->
+    {{> footer }}
+
+    </div>
+
+    <!-- Run script in the background to clear the expired session items from the cart-->
+    <script src="/javascripts/clearExpiredSession.js"></script>
+    <script src="/javascripts/registerAndLogin.js"></script>
+    <script src="/javascripts/slider.js"></script>
+    
+  </body>
+</html>

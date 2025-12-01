@@ -1,0 +1,109 @@
+<!-- ====================================================================
+  File: setup2FA.hbs
+  Description: Template for setting up the TOTP Authentication.
+  Author: Daniel Gorelkin
+  Version: 1.0
+  Created: 2025-11-24
+  Updated:
+
+  Purpose:
+    - Part of the Travlr CMS project
+    - Renders the 2FA QR code for setting up the Two Factor Authentication
+===================================================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  {{> head }}
+
+  <body>
+
+    <div id="background">
+      <div id="page">
+
+        {{> header }}
+
+        <div id="contents">
+          <div class="box">
+            <div class="body">
+              <!-- Page Title -->
+              <h1>Setup Time-based One Time Password (TOTP) Authentication</h1>
+              <h3>{{message}}</h3>
+
+              <!-- QR Code -->
+              <div style="text-align:center; margin:20px 0;">
+                <img src="{{{qrCode}}}" alt="TOTP QR Code" style="width:200px; height:200px; border:2px solid #ccc; border-radius:12px;">
+              </div>
+
+              <!-- Secret -->
+              <div class="secret-container" style="text-align:center; margin-bottom:20px;">
+                <p><strong>Secret Key:</strong> <code>{{secret}}</code></p>
+              </div>
+
+            </div>
+
+            <br>
+            <h3></h3>
+
+            <div class="body">
+              <!-- Response code -->
+              <div class="totp-header">
+                <img src="/images/TOTP_logo.jpg" alt="Google_TOTP_logo" class="totp-icon">
+                
+                <div class="totp-text">
+                  <h1 id="2faForm_header_h1">Got your code?</h1>
+                  <h2 id="2faForm_header_h2">Enter your 6 digit code here:</h2>
+
+                  <!-- Read to verify TOTP authentication code from user via form -->
+                  <div style="text-align:center; margin:20px 0;">
+
+                    <form id="2faForm" class="totp-form">
+                      <div class="totp-inputs">
+                        <input type="text" name="d1" maxlength="1" inputmode="numeric" pattern="[0-9]*" required>
+                        <input type="text" name="d2" maxlength="1" inputmode="numeric" pattern="[0-9]*" required>
+                        <input type="text" name="d3" maxlength="1" inputmode="numeric" pattern="[0-9]*" required>
+                        <input type="text" name="d4" maxlength="1" inputmode="numeric" pattern="[0-9]*" required>
+                        <input type="text" name="d5" maxlength="1" inputmode="numeric" pattern="[0-9]*" required>
+                        <input type="text" name="d6" maxlength="1" inputmode="numeric" pattern="[0-9]*" required>
+                      </div>
+
+                      <button type="submit" id="submit2faBtn" class="totp-submit">Verify Code</button>
+                    </form>
+
+                  </div>
+
+                </div>
+              </div>
+
+              <H3></H3>
+
+              <!-- Redirect to download Google's Authenticator app -->
+              <div class="secret-container" style="text-align:center; margin-bottom:20px;">
+                <p><strong>Don't have the authentication app yet?</strong></p>
+                <p><code>Don't worry, you can always download it for free here:</code></p>
+
+                <div style="text-align:center; margin-top:15px;">
+                  <a href="https://apps.apple.com/us/app/google-authenticator/id388497605" target="_blank" style="margin-right:10px;">
+                    <img src="/images/appstore_badge.png" alt="Download on the App Store" style="height:50px;">
+                  </a>
+
+                  <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2" target="_blank">
+                    <img src="/images/googleplay_badge.png" alt="Get it on Google Play" style="height:50px;">
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        {{> footer }}
+
+      </div>
+    </div>
+
+    <script src="/javascripts/verify2FA.js"></script>
+  </body>
+</html>

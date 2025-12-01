@@ -1,0 +1,114 @@
+<!-- ====================================================================
+  File: contact.hbs
+  Description: Template for displaying the Contact Us page including form submission.
+  Author: Daniel Gorelkin
+  Version: 1.2
+  Created: 2025-08-23
+  Updated: 2025-11-10
+
+  Purpose:
+    - Part of the Travlr CMS project
+    - Displays the Contact Us form and company contact information
+    - Submits user messages directly to the /api/contact endpoint
+      using x-www-form-urlencoded data via POST method.
+===================================================================== -->
+
+<!DOCTYPE html>
+<html>
+
+  <!-- Shared HEAD partial imported via handlebars.
+  Includes metadata, stylesheets, and page-level head elements. -->
+  {{> head }}
+
+  <body>
+    <div id="background">
+
+      <div id="page">
+
+        <!-- Header block (logo, navigation, user login button).
+        Loaded from the header.hbs partial to maintain consistent layout. -->
+        {{> header }}
+
+        <!-- Main content block for Contact page.
+        Displays contact form and company information. -->
+        <div id="contents">
+          <div class="box">
+            <div>
+              <div id="contact" class="body">
+
+                <!-- Page Title -->
+                <h1>Contact Us</h1>
+
+                <!-- Contact form.
+                Submits user-provided data directly to the /api/contact route.
+                Form fields correspond to req.body properties. -->
+				<!-- Form uses POST method to send data in x-www-form-urlencoded format -->
+				<!-- Expected Input Structure:
+					contact_data: {	Company_name, Address, Telephone, Email: as Strings} -->
+                <form action="/api/contact" method="post">
+					<table>
+						<tbody>
+
+							<tr>
+								<td>Name:</td>
+								<td><input type="text" name="name" class="txtfield"></td>
+							</tr>
+
+							<tr>
+								<td>Email:</td>
+								<td><input type="text" name="email" class="txtfield"></td>
+							</tr>
+
+							<tr>
+								<td>Subject:</td>
+								<td><input type="text" name="subject" class="txtfield"></td>
+							</tr>
+
+							<tr>
+								<td class="txtarea">Message:</td>
+								<td><textarea name="message"></textarea></td>
+							</tr>
+
+							<!-- Submit button to send the form data -->
+							<tr>
+								<td></td>
+								<td><input type="submit" value="Send Message" id="submit_btn" class="submit_btn">
+							</tr>
+
+						</tbody>
+					</table>
+                </form>
+
+                <!-- Contact details populated from the "contact_data" JSON object
+                passed from contact.js controller API. -->
+                <h2>{{ contact_data.Company_name }}</h2>
+
+                <p>{{ contact_data.Address }}</p>
+                <p>{{ contact_data.Telephone }}</p>
+                <p>
+                  <a href="mailto:{{ contact_data.Email }}">
+                    {{ contact_data.Email }}
+                  </a>
+                </p>
+                <p><a href="{{ contact_data.GitHub }}" target="_blank">{{ contact_data.GitHub }} </a></p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer block (external links, navigation, admin login).
+      Loaded from footer.hbs to maintain consistent project structure. -->
+      {{> footer }}
+
+    </div>
+
+    <!-- JavaScript to handle contact form submission response alert -->
+    <!-- Script located in public/javascripts/contact.js -->
+    <script src="/javascripts/contact.js"></script>
+    <script src="/javascripts/registerAndLogin.js"></script>
+
+  </body>
+</html>

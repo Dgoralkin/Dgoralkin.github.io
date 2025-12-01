@@ -1,0 +1,111 @@
+<!-- ====================================================================
+  File: travel.hbs
+  Description: Template for displaying all available travel packages.
+  Author: Daniel Gorelkin
+  Version: 1.2
+  Created: 2025-08-20
+  Updated: 2025-11-10
+
+  Purpose:
+    - Part of the Travlr CMS project
+    - Responsible for rendering the list of travel destinations
+    - Dynamically displays trip data received from the controller
+      via the "trips" JSON passed in the rendering context.
+    - Allows user to select and add items to the cart through a
+      hidden form submission and passing data variables in the message body.
+===================================================================== -->
+
+<!DOCTYPE html>
+<html>
+
+  <!-- Use handlebars templating to inject shared HEAD block content.
+  Content is read from the head.hbs partial file. -->
+  {{> head }}
+
+  <body>
+    <div id="background">
+
+      <div id="page">
+
+        <!-- Header block (logo, navigation, login button).
+        Loaded from the header.hbs partial and shared across all project pages. -->
+        {{> header }}
+
+        <!-- The main contents block.
+        Displays all travel packages using the "trips" array passed from the controller.
+        Expected structure:
+          trips: [{ _id: string code: String, name: String, start: Date , resort: String, 
+          perPerson: Number , image: String, description: String, description_details: String }] -->
+        <div id="contents">
+          <div class="box">
+            <div>
+              <div class="body">
+                <!-- Page Title -->
+                <h1>Travel</h1>
+                <h3></h3>
+
+                <!-- Loop through each trip object and render its data.
+                Each trip includes an image, name, and description text.
+                Image fallback is applied if the specified file is missing. -->
+                <ul id="sites">
+                  {{#each trips}}
+                  <li>
+                    <a href="/api/travel/{{this.code}}">
+                      <img 
+                        src="images/{{this.image}}" 
+                        alt="Img" 
+                        onerror="this.onerror=null;this.src='images/logo.png';"
+                      />
+                    </a>
+
+                    <!-- Container for the add to cart button -->
+                    <div class="trip-header">
+                      <h2>
+                        <a href="/api/travel/{{this.code}}">{{this.name}}</a>
+                      </h2>
+
+                      <!-- Add item to cart functionality -->
+                      <!-- The form submits a POST request to add the selected trip to the shopping cart. -->
+                      <!-- The hidden inputs specify the collection, item name, code and ID for server processing. -->
+                      <!-- See public/javascripts/addItemToCart.js for handling the form submission asynchronously. -->
+                      <form action="/api/cart" method="POST" class="add-to-cart-form">
+                        <input type="hidden" name="collection" value="travel">
+                        <input type="hidden" name="_id" value="{{this._id}}">
+                        <input type="hidden" name="itemCode" value="{{this.code}}">
+                        <input type="hidden" name="itemName" value="{{this.name}}">
+                        <input type="hidden" name="itemRate" value="{{this.perPerson}}">
+                        <input type="hidden" name="itemImage" value="{{this.image}}">
+                        <!-- Submit btn triggers the EventListener in public/javascripts/travel.js. Icon uses the Icon font from Bootstrap library -->
+                        <button id="formButton{{this._id}}" type="submit" class="add-to-cart-btn"> <i class="bi bi-cart-plus"></i> Add to cart </button>
+                      </form>
+                    </div>
+
+                    <p>{{this.description}}</p>
+                    <p>{{this.description_details}}</p>
+                    <span class="rate">Rate: ${{perPerson}} / Package</span>
+                    <h3></h3>
+                  </li>
+                  {{/each}}
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer block (external links, navigation, admin login).
+      Loaded from the footer.hbs partial file. -->
+      {{> footer }}
+
+    </div>
+
+    <!-- JavaScript to handle "Add to Cart" form submissions asynchronously -->
+    <!-- Prevents page reload and provides user feedback during the process. -->
+    <!-- Script located in public/javascripts/cart.js -->
+    <script src="/javascripts/addItemToCart.js"></script>
+    <script src="/javascripts/registerAndLogin.js"></script>
+
+  </body>
+</html>
