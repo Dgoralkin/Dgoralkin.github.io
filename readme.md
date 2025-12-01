@@ -10,7 +10,7 @@ After completing three and a half years in the Computer Science program, focusin
 
 While in the program, I learned at night and worked full-time as a service manager while being a father to three wonderful kids. But most importantly, I learned to think outside the box and always consider the interaction between the user and the software—such as the user's safety and security, functionality, and design—and how easy and intuitive it will be for users to operate the software.  
 
-Additionally, I learned to think beyond the code I wrote and to consider the other developers who will maintain it, following best practices and crediting others' work. Ultimately, I learned that everything is possible and the sky is the limit. If there is something I can't solve today, it doesn't mean it's not solvable—it means I need to learn and develop new skills to tackle and solve the problem.
+Additionally, I learned to think beyond the code I wrote and to consider the other developers who will maintain it, following best practices and crediting others' work. Ultimately, I learned that everything is possible and the sky is the limit. If there is something I can't solve today, it doesn't mean it's not solvable—it means I need to learn and develop new skills to tackle the problem and solve it.
 
 Throughout the enhancements, I will demonstrate my ability to develop functional code by applying modern software design principles, such as object-oriented programming, and following best practices. I will also demonstrate my skills in designing and testing computing solutions using algorithms while outlining trade-offs in my design decisions. Similarly, I will demonstrate a security-focused mindset that minimizes threats, identifies and mitigates design flaws, and ensures the privacy and safety of data.  
 
@@ -215,10 +215,11 @@ This enhancement focuses on migrating the database to a **cloud platform** such 
 - I have selected algorithms and event listeners that will be responsible for updating the elements via dedicated and modular JavaScript code sections, making the app dynamic and vibrant.
 
 #### The MongoDB Atlas Cloud Database Optimization
-![MongoDB Atlas](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Atlas%20DB.png)
+![Database Optimization](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/DatabaseIndex.png)
+![Database Privileges](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/DatabaseUser.png)
 
 #### Securing Endpoints
-![MongoDB Atlas](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Atlas%20DB.png)
+![Securing Endpoints](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/SecurityPostman.png)
 
 #### Authentication and Authorization
-![MongoDB Atlas](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Atlas%20DB.png)
+![Authentication and Authorization](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/SecurityTwoStepAuth.png)
