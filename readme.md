@@ -6,8 +6,11 @@
 1. [Self-Introduction](#self-introduction)
 2. [ePortfolio Setup](#eportfolio-setup)
 3. [Project Deployment](#project-deployment)
-4. [Code Review](#code-review)
+4. [Code Review](#code-review) 
 5. [Enhancement Plan](#enhancement-plan)
+    a. [Category 1: Software Engineering and Design](#category-one)
+    b. [Category 2: Algorithms and Data Structures](#category-two)
+    c. [Category 3: Databases](#category-three)
 
 ---
 
@@ -102,6 +105,7 @@ It highlights how I apply computer science principles and techniques to solve re
 
 ---
 
+<a id="category-one"></a>
 ### 📌**Category One: Software Engineering and Design**
 
 The artifact to be enhanced under the **Software Engineering and Design** category is the *Travlr mid-course project milestone* from the CS-465 Full Stack Development class.  
@@ -149,6 +153,7 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 
 ---
 
+<a id="category-two"></a>
 ### 📌**Category Two: Algorithms and Data Structures**
 
 The second enhancement continues using the **Travlr project** as the base artifact.  
@@ -192,6 +197,7 @@ The goal is to transform the website into an **intelligent platform** using algo
 
 ---
 
+<a id="category-three"></a>
 ### 📌**Category Three: Databases**
 
 The Travlr artifact currently uses a local database, which limits collaboration and scalability.  
