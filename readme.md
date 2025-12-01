@@ -11,7 +11,7 @@
 
 ---
 
-## I. Self-Introduction  
+## 1️⃣. Self-Introduction  
 
 After completing three and a half years in the Computer Science program, focusing on data and software engineering, I have been exposed to various programming languages, architectures, designs, and execution environments, and have developed a strong mindset for solving complex problems and meeting deadlines.
 While in the program, I learned at night and worked full-time as a service manager while being a father to three wonderful kids. But most importantly, I learned to think outside the box and always consider the interaction between the user and the software—such as the user's safety and security, functionality, and design—and how easy and intuitive it will be for users to operate the software.  
@@ -33,27 +33,27 @@ The end result? Combining my freshly acquired skills with my previous knowledge 
 To demonstrate my skills, I chose to enhance the "Travlr" full-stack app developed from my CS-465 coursework by demonstrating mastery in Software design and Engineering, Algorithms and Data structures, and Databases.
 
 ### To do so, I will:
-- [x] **1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making.**
-- [x] **2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts**
-- [x] **3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices**
-- [x] **4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals**
-- [x] **5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources**
+- ✅ **1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making.**
+- ✅ **2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts**
+- ✅ **3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices**
+- ✅ **4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals**
+- ✅ **5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources**
 
 ---
 
-## II. ePortfolio Setup  
+## 2️⃣. ePortfolio Setup  
 
 - **Hosted on:** [https://dgoralkin.github.io/](https://dgoralkin.github.io/)
 
 ---
 
-## III. Project Deployment
+## 3️⃣. Project Deployment
 <a href="https://travlr-dg.onrender.com/">
     <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Travlr_Demo.gif?raw=true" width="500">
 </a>
 
-- **🌍✈️ Travlr Demo Video is hosted live on:** [https://travlr-dg.onrender.com/](https://travlr-dg.onrender.com/)
-- Feel free to play around and test it out.
+- **🌍✈️ Travlr Project is hosted live on:** [https://travlr-dg.onrender.com/](https://travlr-dg.onrender.com/)
+- Feel free to ▶️play around and test it out.
 
 ---
 
@@ -78,7 +78,7 @@ It highlights how I apply computer science principles and techniques to solve re
 
 ---
 
-## IV. Code Review
+## 4️⃣. Code Review
 
 ---
 
@@ -93,7 +93,7 @@ It highlights how I apply computer science principles and techniques to solve re
 
 ---
 
-## V. Enhancement Plan  
+## 5️⃣. Enhancement Plan  
 
 ---
 
@@ -135,7 +135,7 @@ The project will be redesigned with a **mobile-first approach** to fit both desk
 
 #### Project Design Comparison
 
-| Old Design | Enhanced Responsive Design | Mobile Design |
+| 💻Old Design | 💻Enhanced Responsive Design | 📱Mobile Design |
 |------------|---------------------------|---------------|
 | ![Old Design](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Old%20design.png) | ![Enhanced Design](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/New%20design.png) | ![Mobile Design](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/Mobile%20design.png) |
 
