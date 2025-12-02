@@ -279,7 +279,7 @@ Security concerns discovered during the second code review and testing led me to
 
 These enhancements reflect strong algorithmic thinking and a security-first mindset aligned with industry expectations.
 
-#### **Category Three — Databases**
+#### <u>**Category Three — Databases**</u>
 
 The local database was migrated to a cloud-based MongoDB Atlas deployment. This included:
 
