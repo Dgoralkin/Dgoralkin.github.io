@@ -253,7 +253,8 @@ This enhancement focuses on migrating the database to a **cloud platform** such 
 <a id="summary"></a>
 ## 📊**Summary of Enhancements Across All Categories**
 
-### **This capstone project enhances the Travlr Full Stack application by modernizing its architecture, improving usability, strengthening security, and applying advanced algorithmic and database practices.
+### **This capstone project enhances the Travlr Full Stack application by modernizing its architecture, improving usability, strengthening security, and applying advanced algorithmic and database practices.**
+
 The work spans all three required categories: Software Engineering & Design, Algorithms & Data Structures, and Databases.**
 
 #### **Category One — Software Engineering & Design**
@@ -264,13 +265,34 @@ During enhancement, the codebase was refactored into a modular, maintainable str
 
 These enhancements demonstrate the ability to use modern tools and design principles to deliver industry-ready solutions and support collaborative, scalable development environments.
 
+#### **Category Two — Algorithms & Data Structures**
 
+The Travlr platform was further enhanced by integrating optimized algorithms for search, filtering, and database performance. Improvements included:
 
+- Server-side indexing and compound queries in MongoDB
+- User authentication and authorization
+- Event-driven JavaScript for dynamic UI updates
+- A fully custom-built cart system with secure sessions
 
+Security concerns discovered during testing led to a complete rewrite of session handling and user privacy protections. The final architecture uses encrypted session tokens, timed logout mechanisms, and encapsulated user data structures to prevent hijacking and cross-site vulnerabilities.
 
+These enhancements reflect strong algorithmic thinking and a security-first mindset aligned with industry expectations.
 
+#### **Category Three — Databases**
 
+The local database was migrated to a cloud-based MongoDB Atlas deployment. This included:
 
+- Creating a cloud environment with role-based access controls
+- Rebuilding schema structures for better speed and storage efficiency
+- Implementing a secure RESTful API
+- Protecting all endpoints using HttpOnly and SameSite cookies
+- Integrating TOTP authentication for an additional security layer
+
+The cloud migration greatly improved scalability, teamwork, and data accessibility, while also enforcing strong security practices. These database enhancements show proficiency in modern data management, secure API design, and scalable cloud solutions.
+
+#### **To conclude**
+
+Through these enhancements, the Travlr project evolved into a secure, responsive, cloud-powered platform while demonstrating modern software engineering and responsive UI design, optimized cloud database deployment with strong security practices, and secure session management. As a result, this project demonstrates growth in full-stack development, database engineering, authentication, and secure architectural design—successfully meeting best practices in computer science, collaboration, algorithmic reasoning, and object-oriented programming.
 
 
 
