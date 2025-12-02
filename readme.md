@@ -11,6 +11,7 @@
     1. [Category 1: Software Engineering and Design](#category-one)
     2. [Category 2: Algorithms and Data Structures](#category-two)
     3. [Category 3: Databases](#category-three)
+6. [Summary](#summary)
 
 ---
 
@@ -246,3 +247,10 @@ This enhancement focuses on migrating the database to a **cloud platform** such 
 
 #### Authentication and Authorization
 ![Authentication and Authorization](https://github.com/Dgoralkin/Dgoralkin.github.io/blob/main/Media/SecurityTwoStepAuth.png)
+
+---
+
+<a id="summary"></a>
+## 📊**Summary of Enhancements Across All Categories**
+
+#### **This capstone project enhances the Travlr Full Stack application by modernizing its architecture, improving usability, strengthening security, and applying advanced algorithmic and database practices. The work spans all three required categories: Software Engineering & Design, Algorithms & Data Structures, and Databases.**
