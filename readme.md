@@ -4,14 +4,14 @@
 
 ## Table of Contents
 1. [Self-Introduction](#self-introduction)
-2. [My Other Courses and Projects](#other-courses)
-3. [Project Deployment](#project-deployment)
-4. [Code Review](#code-review) 
-5. [Enhancement Plan](#enhancement-plan)
+2. [Project Deployment](#project-deployment)
+3. [Code Review](#code-review) 
+4. [Enhancement Plan](#enhancement-plan)
     1. [Category 1: Software Engineering and Design](#category-one)
     2. [Category 2: Algorithms and Data Structures](#category-two)
     3. [Category 3: Databases](#category-three)
-6. [Summary](#summary)
+5. [Summary](#summary)
+6. [My Other Courses and Projects](#other-courses)
 
 ---
 
@@ -32,7 +32,7 @@ With this in mind,  what started as a professional hobby project soon became the
 But for now, completing my coursework throughout the program taught me to plan my work by choosing the right development strategy for the task, whether it be a Waterfall, Agile model, or DevOps, reading and creating diagrams, or simply communicating my work to stakeholders or an expert audience.
 For example, I had the chance to play the role of the Scrum master and the project manager in one course, and a tester and developer in the other. Similarly, I had the chance to create detailed design diagrams for my colleagues to develop and execute a development based on the given diagrams and requirements. All that while collaborating with my team and keeping best practices in mind.
 
-Eventually, the program did not teach me to "just write code," but to think like a state-of-the-art software developer who sees the big picture, from collecting user stories to clean deployment, project summary, and assessment. I had the chance to practise multiple programming languages such as Python, C++, Java, JavaScript, including running queries and building relational and non-relational databases as MySQL and MongoDB, I had the chance to practise as a data analyst while scraping and cleaning code using the R language, while communicating the findings and providing visualized recommendation plans using Power BI, Tableu, or Knime. As well as working with RESTful APIs and developing software for Android mobile devices. Ultimately, I had the chance to build several full-stack applications using Maven, Node and Python libraries. In addition, I practised in developing an AI agent and studied the technology behind ML and DL, as well as modelled and executed a picture-based scenario into a computerized 3D navigation environment.
+Eventually, the program did not teach me to "just write code," but to think like a state-of-the-art software developer who sees the big picture, from collecting user stories to clean deployment, project summary, and assessment. I had the chance to practise multiple programming languages such as Python, C++, Java, JavaScript, including running queries and building relational and non-relational databases as MySQL and MongoDB, I had the chance to practise as a data analyst while scraping and cleaning data using the R language, while communicating the findings and providing visualized recommendation plans using Power BI, Tableu, or Knime. As well as working with RESTful APIs and developing software for Android mobile devices. Ultimately, I had the chance to build several full-stack applications using Maven, Node and Python libraries. In addition, I practised in developing an AI agent and studied the technology behind ML and DL, as well as modelled and executed a picture-based scenario into a computerized 3D navigation environment.
 
 The end result? Combining my freshly acquired skills with my previous knowledge and 14 years of experience as a self-employed and founder of a small-sized company, I feel comfortable holding both sides of the sword and being a solo software developer, as well as a meaningful team leader who drives his team to success by acting as a role model!
 To demonstrate my skills, I chose to enhance the "Travlr" full-stack app developed from my CS-465 coursework by demonstrating mastery in Software design and Engineering, Algorithms and Data structures, and Databases.
@@ -46,26 +46,8 @@ To demonstrate my skills, I chose to enhance the "Travlr" full-stack app develop
 
 ---
 
-<a id="other-courses"></a>
-## 2️⃣. My Other Courses and Projects
-
-- **CS_210:**  [Object_Oriented_Programming](https://github.com/Dgoralkin/Portfolio/tree/main/CS_210_Object_Oriented_Programming)
-- **CS_230:**  [Operating Platforms](https://github.com/Dgoralkin/Portfolio/tree/main/CS_230_Operating%20Platforms)
-- **CS_250:**  [Software_Development_Lifecycle](https://github.com/Dgoralkin/Portfolio/tree/main/CS_250_Software_Development_Lifecycle)
-- **CS_255:**  [System_Analysis_and_Design](https://github.com/Dgoralkin/Portfolio/tree/main/CS_255_System_Analysis_and_Design)
-- **CS_300:**  [Analysis_and_Design](https://github.com/Dgoralkin/Portfolio/tree/main/CS_300_Analysis_and_Design)
-- **CS_305:**  [Software_Security](https://github.com/Dgoralkin/Portfolio/tree/main/CS_305_Software_Security)
-- **CS_320:**  [Softwrae_Test_And_Automation](https://github.com/Dgoralkin/Portfolio/tree/main/CS_320_Softwrae_Test_And_Automation)
-- **CS_330:**  [Comp_Graphic_and_Visualization](https://github.com/Dgoralkin/Portfolio/tree/main/CS_330_Comp_Graphic_and_Visualization)
-- **CS_340:**  [ClientServer_Development](https://github.com/Dgoralkin/Portfolio/tree/main/CS_340_ClientServer_Development)
-- **CS_360:**  [Mobile Architect and Programming](https://github.com/Dgoralkin/Portfolio/tree/main/CS_360_Mobile%20Architect%20and%20Programming)
-- **CS_370:**  [CurrentEmerging_Trends_in_CS](https://github.com/Dgoralkin/Portfolio/tree/main/CS_370_CurrentEmerging_Trends_in_CS)
-- **DAT_375:** [Data_Analysis_Techniques](https://github.com/Dgoralkin/Portfolio/tree/main/DAT_375_Data_Analysis_Techniques)
-
----
-
 <a id="project-deployment"></a>
-## 3️⃣. Project Deployment
+## 2️⃣. Project Deployment
 <a href="https://travlr-dg.onrender.com/">
     <img src="https://github.com/Dgoralkin/CS-465-Full-Stack-Development/blob/module_3_CS499/public/images/Travlr_Demo.gif?raw=true" width="500">
 </a>
@@ -97,7 +79,7 @@ It highlights how I apply computer science principles and techniques to solve re
 ---
 
 <a id="code-review"></a>
-## 4️⃣. Code Review
+## 3️⃣. Code Review
 
 ---
 
@@ -113,7 +95,7 @@ It highlights how I apply computer science principles and techniques to solve re
 ---
 
 <a id="enhancement-plan"></a>
-## 5️⃣. Enhancement Plan  
+## 4️⃣. Enhancement Plan  
 
 ---
 
@@ -289,7 +271,22 @@ The cloud migration greatly improved scalability, teamwork, and data accessibili
 
 Through these enhancements, the Travlr project evolved into a secure, responsive, cloud-powered platform while demonstrating modern software engineering and responsive UI design, optimized cloud database deployment with strong security practices, and secure session management. As a result, this project demonstrates growth in full-stack development, database engineering, authentication, and secure architectural design—successfully meeting best practices in computer science, collaboration, algorithmic reasoning, and object-oriented programming.
 
+---
 
+<a id="other-courses"></a>
+## 6️⃣. My Other Courses and Projects
 
+- **CS_210:**  [Object_Oriented_Programming](https://github.com/Dgoralkin/Portfolio/tree/main/CS_210_Object_Oriented_Programming)
+- **CS_230:**  [Operating Platforms](https://github.com/Dgoralkin/Portfolio/tree/main/CS_230_Operating%20Platforms)
+- **CS_250:**  [Software_Development_Lifecycle](https://github.com/Dgoralkin/Portfolio/tree/main/CS_250_Software_Development_Lifecycle)
+- **CS_255:**  [System_Analysis_and_Design](https://github.com/Dgoralkin/Portfolio/tree/main/CS_255_System_Analysis_and_Design)
+- **CS_300:**  [Analysis_and_Design](https://github.com/Dgoralkin/Portfolio/tree/main/CS_300_Analysis_and_Design)
+- **CS_305:**  [Software_Security](https://github.com/Dgoralkin/Portfolio/tree/main/CS_305_Software_Security)
+- **CS_320:**  [Softwrae_Test_And_Automation](https://github.com/Dgoralkin/Portfolio/tree/main/CS_320_Softwrae_Test_And_Automation)
+- **CS_330:**  [Comp_Graphic_and_Visualization](https://github.com/Dgoralkin/Portfolio/tree/main/CS_330_Comp_Graphic_and_Visualization)
+- **CS_340:**  [ClientServer_Development](https://github.com/Dgoralkin/Portfolio/tree/main/CS_340_ClientServer_Development)
+- **CS_360:**  [Mobile Architect and Programming](https://github.com/Dgoralkin/Portfolio/tree/main/CS_360_Mobile%20Architect%20and%20Programming)
+- **CS_370:**  [CurrentEmerging_Trends_in_CS](https://github.com/Dgoralkin/Portfolio/tree/main/CS_370_CurrentEmerging_Trends_in_CS)
+- **DAT_375:** [Data_Analysis_Techniques](https://github.com/Dgoralkin/Portfolio/tree/main/DAT_375_Data_Analysis_Techniques)
 
-
+---
