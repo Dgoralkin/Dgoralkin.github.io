@@ -265,26 +265,22 @@ These enhancements demonstrate the ability to use modern tools and design princi
 #### **Category Two — Algorithms & Data Structures**
 
 The Travlr platform was enhanced by integrating optimized algorithms for search, filtering, and database performance. Improvements included:
-
 - Server-side indexing and compound queries in MongoDB
 - User authentication and authorization
 - Integrating TOTP authentication for an additional security layer
 - Event-driven JavaScript for dynamic UI updates
 - A fully custom-built cart system with secure sessions
-
 Security concerns discovered during the second code review and testing led me to a complete rewrite of session handling and user privacy protections. The final architecture uses encrypted session tokens, timed logout mechanisms, and encapsulated user data structures to prevent hijacking and cross-site vulnerabilities.
 These enhancements reflect strong algorithmic thinking and a security-first mindset aligned with industry expectations.
 
 #### **Category Three — Databases**
 
 The local database was migrated to a cloud-based MongoDB Atlas deployment. This included:
-
 - Creating a cloud environment with role-based access controls
 - Rebuilding schema structures for better speed and storage efficiency
 - Implementing a secure RESTful API
 - Protecting all endpoints using HttpOnly and SameSite cookies
 - Server-side indexing and compound queries in MongoDB
-
 The cloud migration greatly improved scalability, teamwork, and data accessibility, while also enforcing strong security practices. These database enhancements show proficiency in modern data management, secure API design, and scalable cloud solutions.
 
 #### **To conclude**
