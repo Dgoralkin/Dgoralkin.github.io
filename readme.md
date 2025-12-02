@@ -48,17 +48,17 @@ To demonstrate my skills, I chose to enhance the "Travlr" full-stack app develop
 <a id="other-courses"></a>
 ## 2️⃣. My Other Courses and Projects
 
-- **CS_210:** [Object_Oriented_Programming](https://github.com/Dgoralkin/Portfolio/tree/main/CS_210_Object_Oriented_Programming)
-- **CS_230:** [Operating Platforms](https://github.com/Dgoralkin/Portfolio/tree/main/CS_230_Operating%20Platforms)
-- **CS_250:** [Software_Development_Lifecycle](https://github.com/Dgoralkin/Portfolio/tree/main/CS_250_Software_Development_Lifecycle)
-- **CS_255:** [System_Analysis_and_Design](https://github.com/Dgoralkin/Portfolio/tree/main/CS_255_System_Analysis_and_Design)
-- **CS_300:** [Analysis_and_Design](https://github.com/Dgoralkin/Portfolio/tree/main/CS_300_Analysis_and_Design)
-- **CS_305:** [Software_Security](https://github.com/Dgoralkin/Portfolio/tree/main/CS_305_Software_Security)
-- **CS_320:** [Softwrae_Test_And_Automation](https://github.com/Dgoralkin/Portfolio/tree/main/CS_320_Softwrae_Test_And_Automation)
-- **CS_330:** [Comp_Graphic_and_Visualization](https://github.com/Dgoralkin/Portfolio/tree/main/CS_330_Comp_Graphic_and_Visualization)
-- **CS_340:** [ClientServer_Development](https://github.com/Dgoralkin/Portfolio/tree/main/CS_340_ClientServer_Development)
-- **CS_360:** [Mobile Architect and Programming](https://github.com/Dgoralkin/Portfolio/tree/main/CS_360_Mobile%20Architect%20and%20Programming)
-- **CS_370:** [CurrentEmerging_Trends_in_CS](https://github.com/Dgoralkin/Portfolio/tree/main/CS_370_CurrentEmerging_Trends_in_CS)
+- **CS_210:**  [Object_Oriented_Programming](https://github.com/Dgoralkin/Portfolio/tree/main/CS_210_Object_Oriented_Programming)
+- **CS_230:**  [Operating Platforms](https://github.com/Dgoralkin/Portfolio/tree/main/CS_230_Operating%20Platforms)
+- **CS_250:**  [Software_Development_Lifecycle](https://github.com/Dgoralkin/Portfolio/tree/main/CS_250_Software_Development_Lifecycle)
+- **CS_255:**  [System_Analysis_and_Design](https://github.com/Dgoralkin/Portfolio/tree/main/CS_255_System_Analysis_and_Design)
+- **CS_300:**  [Analysis_and_Design](https://github.com/Dgoralkin/Portfolio/tree/main/CS_300_Analysis_and_Design)
+- **CS_305:**  [Software_Security](https://github.com/Dgoralkin/Portfolio/tree/main/CS_305_Software_Security)
+- **CS_320:**  [Softwrae_Test_And_Automation](https://github.com/Dgoralkin/Portfolio/tree/main/CS_320_Softwrae_Test_And_Automation)
+- **CS_330:**  [Comp_Graphic_and_Visualization](https://github.com/Dgoralkin/Portfolio/tree/main/CS_330_Comp_Graphic_and_Visualization)
+- **CS_340:**  [ClientServer_Development](https://github.com/Dgoralkin/Portfolio/tree/main/CS_340_ClientServer_Development)
+- **CS_360:**  [Mobile Architect and Programming](https://github.com/Dgoralkin/Portfolio/tree/main/CS_360_Mobile%20Architect%20and%20Programming)
+- **CS_370:**  [CurrentEmerging_Trends_in_CS](https://github.com/Dgoralkin/Portfolio/tree/main/CS_370_CurrentEmerging_Trends_in_CS)
 - **DAT_375:** [Data_Analysis_Techniques](https://github.com/Dgoralkin/Portfolio/tree/main/DAT_375_Data_Analysis_Techniques)
 
 ---
