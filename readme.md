@@ -4,7 +4,7 @@
 
 ## Table of Contents
 1. [Self-Introduction](#self-introduction)
-2. [ePortfolio Setup](#other-courses)
+2. [My Other Courses and Projects](#other-courses)
 3. [Project Deployment](#project-deployment)
 4. [Code Review](#code-review) 
 5. [Enhancement Plan](#enhancement-plan)
@@ -15,7 +15,7 @@
 ---
 
 <a id="self-introduction"></a>
-## 1️⃣. Self-Introduction
+## 1️⃣. Self-Introduction and Assessment
 
 After completing three and a half years in the Computer Science program, focusing on data and software engineering, I have been exposed to various programming languages, architectures, designs, and execution environments, and have developed a strong mindset for solving complex problems and meeting deadlines.
 While in the program, I learned at night and worked full-time as a service manager while being a father to three wonderful kids. But most importantly, I learned to think outside the box and always consider the interaction between the user and the software—such as the user's safety and security, functionality, and design—and how easy and intuitive it will be for users to operate the software.  
