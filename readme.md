@@ -254,15 +254,12 @@ This enhancement focuses on migrating the database to a **cloud platform** such 
 ## 📊**Summary of Enhancements Across All Categories**
 
 ### **This capstone project enhances the Travlr Full Stack application by modernizing its architecture, improving usability, strengthening security, and applying advanced algorithmic and database practices.**
-
-The work spans all three required categories: Software Engineering & Design, Algorithms & Data Structures, and Databases.**
+The work spans all three required categories: Software Engineering & Design, Algorithms & Data Structures, and Databases.
 
 #### **Category One — Software Engineering & Design**
 
 The project was redesigned using a mobile-first approach, transforming the original web application into a responsive, modern platform. New features were added, including user account creation, two-step authentication, secure login, and a cart system for booking travel packages. The database was migrated from a local environment to MongoDB Atlas, enabling cloud scalability, security, and collaboration.
-
 During these enhancements, the code was reorganized into a modular, maintainable structure, improving readability and professional software design. This process strengthened skills in JavaScript, HTML, CSS, Handlebars, cloud configuration, and full-stack architecture.
-
 These enhancements demonstrate the ability to use modern tools and design principles to deliver industry-ready solutions and support collaborative, scalable development environments.
 
 #### **Category Two — Algorithms & Data Structures**
@@ -276,7 +273,6 @@ The Travlr platform was enhanced by integrating optimized algorithms for search,
 - A fully custom-built cart system with secure sessions
 
 Security concerns discovered during the second code review and testing led me to a complete rewrite of session handling and user privacy protections. The final architecture uses encrypted session tokens, timed logout mechanisms, and encapsulated user data structures to prevent hijacking and cross-site vulnerabilities.
-
 These enhancements reflect strong algorithmic thinking and a security-first mindset aligned with industry expectations.
 
 #### **Category Three — Databases**
