@@ -257,7 +257,7 @@ This enhancement focuses on migrating the database to a **cloud platform** such 
 
 The work spans all three required categories: Software Engineering & Design, Algorithms & Data Structures, and Databases.**
 
-#### <u>Category One — Software Engineering & Design</u>
+#### **Category One — Software Engineering & Design**
 
 The project was redesigned using a mobile-first approach, transforming the original web application into a responsive, modern platform. New features were added, including user account creation, two-step authentication, secure login, and a cart system for booking travel packages. The database was migrated from a local environment to MongoDB Atlas, enabling cloud scalability, security, and collaboration.
 
@@ -265,7 +265,7 @@ During these enhancements, the code was reorganized into a modular, maintainable
 
 These enhancements demonstrate the ability to use modern tools and design principles to deliver industry-ready solutions and support collaborative, scalable development environments.
 
-#### <u>Category Two — Algorithms & Data Structures</u>
+#### **Category Two — Algorithms & Data Structures**
 
 The Travlr platform was enhanced by integrating optimized algorithms for search, filtering, and database performance. Improvements included:
 
@@ -279,7 +279,7 @@ Security concerns discovered during the second code review and testing led me to
 
 These enhancements reflect strong algorithmic thinking and a security-first mindset aligned with industry expectations.
 
-#### <u>Category Three — Databases</u>
+#### **Category Three — Databases**
 
 The local database was migrated to a cloud-based MongoDB Atlas deployment. This included:
 
