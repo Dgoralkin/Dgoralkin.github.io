@@ -261,20 +261,21 @@ The work spans all three required categories: Software Engineering & Design, Alg
 
 The project was redesigned using a mobile-first approach, transforming the original web application into a responsive, modern platform. New features were added, including user account creation, two-step authentication, secure login, and a cart system for booking travel packages. The database was migrated from a local environment to MongoDB Atlas, enabling cloud scalability, security, and collaboration.
 
-During enhancement, the codebase was refactored into a modular, maintainable structure, improving readability and professional software design. This process strengthened skills in JavaScript, HTML, CSS, Handlebars, cloud configuration, and full-stack architecture.
+During these enhancements, the code was reorganized into a modular, maintainable structure, improving readability and professional software design. This process strengthened skills in JavaScript, HTML, CSS, Handlebars, cloud configuration, and full-stack architecture.
 
 These enhancements demonstrate the ability to use modern tools and design principles to deliver industry-ready solutions and support collaborative, scalable development environments.
 
 #### **Category Two — Algorithms & Data Structures**
 
-The Travlr platform was further enhanced by integrating optimized algorithms for search, filtering, and database performance. Improvements included:
+The Travlr platform was enhanced by integrating optimized algorithms for search, filtering, and database performance. Improvements included:
 
 - Server-side indexing and compound queries in MongoDB
 - User authentication and authorization
+- Integrating TOTP authentication for an additional security layer
 - Event-driven JavaScript for dynamic UI updates
 - A fully custom-built cart system with secure sessions
 
-Security concerns discovered during testing led to a complete rewrite of session handling and user privacy protections. The final architecture uses encrypted session tokens, timed logout mechanisms, and encapsulated user data structures to prevent hijacking and cross-site vulnerabilities.
+Security concerns discovered during the second code review and testing led me to a complete rewrite of session handling and user privacy protections. The final architecture uses encrypted session tokens, timed logout mechanisms, and encapsulated user data structures to prevent hijacking and cross-site vulnerabilities.
 
 These enhancements reflect strong algorithmic thinking and a security-first mindset aligned with industry expectations.
 
@@ -286,7 +287,7 @@ The local database was migrated to a cloud-based MongoDB Atlas deployment. This 
 - Rebuilding schema structures for better speed and storage efficiency
 - Implementing a secure RESTful API
 - Protecting all endpoints using HttpOnly and SameSite cookies
-- Integrating TOTP authentication for an additional security layer
+- Server-side indexing and compound queries in MongoDB
 
 The cloud migration greatly improved scalability, teamwork, and data accessibility, while also enforcing strong security practices. These database enhancements show proficiency in modern data management, secure API design, and scalable cloud solutions.
 
